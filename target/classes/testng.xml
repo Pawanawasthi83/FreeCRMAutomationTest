@@ -3,8 +3,10 @@
 <suite name="Free CRM Test Automation Suite">
   <listeners>
   	<listener class-name="com.crm.qa.ExtentReportListener.ExtentReporterNG"></listener>
+  	<listener class-name="com.crm.qa.analyzer.AnnotationTransformer"></listener>
   </listeners>
   <test name="Free CRM Test Suite">
+  
     <classes>
       <class name="com.crm.qa.testcases.LoginPageTest"></class>
       

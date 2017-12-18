@@ -3,13 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Free CRM Test Automation Suite]">
   <listeners>
     <listener class-name="com.crm.qa.ExtentReportListener.ExtentReporterNG"/>
+    <listener class-name="com.crm.qa.analyzer.AnnotationTransformer"/>
   </listeners>
   <test name="Free CRM Test Suite(failed)">
     <classes>
       <class name="com.crm.qa.testcases.LoginPageTest">
         <methods>
+          <include name="testLogin"/>
           <include name="setup"/>
           <include name="teardown"/>
+          <include name="testCRMLogoImage"/>
           <include name="testLoginPageTitleText"/>
         </methods>
       </class> <!-- com.crm.qa.testcases.LoginPageTest -->

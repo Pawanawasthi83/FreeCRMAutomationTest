@@ -24,7 +24,8 @@ public class TestHelper extends TestBase{
 	public static void takeScreenShot(){
 		String targetPath=System.getProperty("user.dir")
 				+File.separator+"screenshots"+File.separator+System.currentTimeMillis()+".jpg";
-		File srcfile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		TakesScreenshot ts = (TakesScreenshot)driver;
+		File srcfile = ts.getScreenshotAs(OutputType.FILE);
 		try {
 			FileUtils.copyFile(srcfile, new File(targetPath));
 		} catch (IOException e) {

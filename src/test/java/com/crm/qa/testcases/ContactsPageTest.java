@@ -20,7 +20,7 @@ public class ContactsPageTest extends TestBase {
 	public ContactsPageTest(){
 		super();
 	}
-	
+		
 	@BeforeMethod
 	public void setup(){
 		initialization();

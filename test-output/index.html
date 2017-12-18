@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Free_CRM_Test_Automation_Suite">
-              <span class="suite-name border-failed">Free CRM Test Automation Suite</span>
+              <span class="suite-name border-skipped">Free CRM Test Automation Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,40 +91,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                    <span class="method-stats">3 methods,  3 skipped,  </span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Free_CRM_Test_Automation_Suite" class="hide-methods failed suite-Free_CRM_Test_Automation_Suite"> (hide)</a> <!-- hide-methods failed suite-Free_CRM_Test_Automation_Suite -->
-                      <a href="#" panel-name="suite-Free_CRM_Test_Automation_Suite" class="show-methods failed suite-Free_CRM_Test_Automation_Suite"> (show)</a> <!-- show-methods failed suite-Free_CRM_Test_Automation_Suite -->
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Free_CRM_Test_Automation_Suite" class="hide-methods skipped suite-Free_CRM_Test_Automation_Suite"> (hide)</a> <!-- hide-methods skipped suite-Free_CRM_Test_Automation_Suite -->
+                      <a href="#" panel-name="suite-Free_CRM_Test_Automation_Suite" class="show-methods skipped suite-Free_CRM_Test_Automation_Suite"> (show)</a> <!-- show-methods skipped suite-Free_CRM_Test_Automation_Suite -->
                     </span>
-                    <div class="method-list-content failed suite-Free_CRM_Test_Automation_Suite">
+                    <div class="method-list-content skipped suite-Free_CRM_Test_Automation_Suite">
                       <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Free_CRM_Test_Automation_Suite" title="com.crm.qa.testcases.LoginPageTest" hash-for-method="testLoginPageTitleText">testLoginPageTitleText</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Free_CRM_Test_Automation_Suite -->
-                  </li>
-                  <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Free_CRM_Test_Automation_Suite" class="hide-methods passed suite-Free_CRM_Test_Automation_Suite"> (hide)</a> <!-- hide-methods passed suite-Free_CRM_Test_Automation_Suite -->
-                      <a href="#" panel-name="suite-Free_CRM_Test_Automation_Suite" class="show-methods passed suite-Free_CRM_Test_Automation_Suite"> (show)</a> <!-- show-methods passed suite-Free_CRM_Test_Automation_Suite -->
-                    </span>
-                    <div class="method-list-content passed suite-Free_CRM_Test_Automation_Suite">
-                      <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Free_CRM_Test_Automation_Suite" title="com.crm.qa.testcases.LoginPageTest" hash-for-method="testCRMLogoImage">testCRMLogoImage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Free_CRM_Test_Automation_Suite" title="com.crm.qa.testcases.LoginPageTest" hash-for-method="testLogin">testLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Free_CRM_Test_Automation_Suite -->
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Free_CRM_Test_Automation_Suite" title="com.crm.qa.testcases.LoginPageTest" hash-for-method="testLoginPageTitleText">testLoginPageTitleText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Free_CRM_Test_Automation_Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -136,28 +127,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Free_CRM_Test_Automation_Suite" class="panel Free_CRM_Test_Automation_Suite">
-          <div class="suite-Free_CRM_Test_Automation_Suite-class-failed">
+          <div class="suite-Free_CRM_Test_Automation_Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.crm.qa.testcases.LoginPageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testLoginPageTitleText">
-                  </a> <!-- testLoginPageTitleText -->
-                  <span class="method-name">testLoginPageTitleText</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [#1 Free CRM for Any Business: Online Customer Relationship Software1] but found [#1 Free CRM for Any Business: Online Customer Relationship Software]
-	at com.crm.qa.testcases.LoginPageTest.testLoginPageTitleText(LoginPageTest.java:29)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Free_CRM_Test_Automation_Suite-class-failed -->
-          <div class="suite-Free_CRM_Test_Automation_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="skipped.png"/>
               <span class="class-name">com.crm.qa.testcases.LoginPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -166,6 +138,24 @@
                   <a name="testCRMLogoImage">
                   </a> <!-- testCRMLogoImage -->
                   <span class="method-name">testCRMLogoImage</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
+  (Session info: chrome with embedded Chromium 62.0.3202.89)
+  (Driver info: OperaDriver=2.30,platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 88 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;WIN-NMJ1FQIGA39&apos;, ip: &apos;192.168.65.128&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_122-ea&apos;
+Driver info: org.openqa.selenium.opera.OperaDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30, userDataDir=C:\Users\parth.c\AppData\Local\Temp\scoped_dir2444_17429}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: ce76fa10b9a0311164c2e04b6ef01cc0
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:945)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWindow.maximize(EventFiringWebDriver.java:644)
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:87)
+	at com.crm.qa.testcases.LoginPageTest.setup(LoginPageTest.java:23)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -173,10 +163,53 @@
                   <a name="testLogin">
                   </a> <!-- testLogin -->
                   <span class="method-name">testLogin</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
+  (Session info: chrome with embedded Chromium 62.0.3202.89)
+  (Driver info: OperaDriver=2.30,platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 88 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;WIN-NMJ1FQIGA39&apos;, ip: &apos;192.168.65.128&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_122-ea&apos;
+Driver info: org.openqa.selenium.opera.OperaDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30, userDataDir=C:\Users\parth.c\AppData\Local\Temp\scoped_dir2444_17429}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: ce76fa10b9a0311164c2e04b6ef01cc0
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:945)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWindow.maximize(EventFiringWebDriver.java:644)
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:87)
+	at com.crm.qa.testcases.LoginPageTest.setup(LoginPageTest.java:23)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginPageTitleText">
+                  </a> <!-- testLoginPageTitleText -->
+                  <span class="method-name">testLoginPageTitleText</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
+  (Session info: chrome with embedded Chromium 62.0.3202.89)
+  (Driver info: OperaDriver=2.30,platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 88 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;WIN-NMJ1FQIGA39&apos;, ip: &apos;192.168.65.128&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_122-ea&apos;
+Driver info: org.openqa.selenium.opera.OperaDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30, userDataDir=C:\Users\parth.c\AppData\Local\Temp\scoped_dir2444_17429}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: ce76fa10b9a0311164c2e04b6ef01cc0
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:945)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWindow.maximize(EventFiringWebDriver.java:644)
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:87)
+	at com.crm.qa.testcases.LoginPageTest.setup(LoginPageTest.java:23)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Free_CRM_Test_Automation_Suite-class-passed -->
+          </div> <!-- suite-Free_CRM_Test_Automation_Suite-class-skipped -->
         </div> <!-- panel Free_CRM_Test_Automation_Suite -->
         <div panel-name="test-xml-Free_CRM_Test_Automation_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -189,6 +222,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Free CRM Test Automation Suite&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.crm.qa.ExtentReportListener.ExtentReporterNG&quot;/&gt;
+    &lt;listener class-name=&quot;com.crm.qa.analyzer.AnnotationTransformer&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test name=&quot;Free CRM Test Suite&quot;&gt;
     &lt;classes&gt;
@@ -236,20 +270,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testLogin')
 data.setCell(0, 2, 'com.crm.qa.testcases.LoginPageTest')
-data.setCell(0, 3, 14998);
+data.setCell(0, 3, 0);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testCRMLogoImage')
+data.setCell(1, 1, 'testLoginPageTitleText')
 data.setCell(1, 2, 'com.crm.qa.testcases.LoginPageTest')
-data.setCell(1, 3, 3444);
+data.setCell(1, 3, 0);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testLoginPageTitleText')
+data.setCell(2, 1, 'testCRMLogoImage')
 data.setCell(2, 2, 'com.crm.qa.testcases.LoginPageTest')
-data.setCell(2, 3, 3174);
+data.setCell(2, 3, 0);
 window.suiteTableData['Free_CRM_Test_Automation_Suite']= { tableData: data, tableDiv: 'times-div-Free_CRM_Test_Automation_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <span class="suite-total-time">Total running time: 0 ms</span>
               <div id="times-div-Free_CRM_Test_Automation_Suite">
               </div> <!-- times-div-Free_CRM_Test_Automation_Suite -->
             </div> <!-- times-div -->
@@ -277,43 +311,11 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.crm.qa.testcases.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">testLoginPageTitleText</span>
-                <span class="method-start">19977 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">teardown</span>
-                <span class="method-start">23175 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">24093 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">testCRMLogoImage</span>
-                <span class="method-start">39862 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">teardown</span>
-                <span class="method-start">43308 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">44093 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">testLogin</span>
-                <span class="method-start">59894 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">teardown</span>
-                <span class="method-start">74893 ms</span>
-              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

@@ -11,7 +11,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.opera.OperaDriver;
+import org.openqa.selenium.opera.OperaOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import com.crm.qa.util.TestHelper;
@@ -40,17 +43,20 @@ public class TestBase {
 	
 	public static void initialization() {
 		String browserName=prop.getProperty("browser");
-		
+		System.out.println("Setting browser :  "+browserName);	
 		if(browserName.equalsIgnoreCase("FF")){
 			driver=new FirefoxDriver();
 		}else if(browserName.equalsIgnoreCase("chrome")){
-				String chromeDriverPath=System.getProperty("user.dir")+File.separator+"src"+File.separator+"main"+File.separator+"resources"+File.separator+"Drivers"+File.separator+"chromedriver.exe";
+			
+			String chromeDriverPath=System.getProperty("user.dir")+File.separator+"src"+File.separator+"main"
+					+File.separator+"resources"+File.separator+"Drivers"+File.separator+"chromedriver.exe";
 				System.setProperty("webdriver.chrome.driver", chromeDriverPath);
 				driver = new ChromeDriver();
 		}else if(browserName.equalsIgnoreCase("ie")){
 			try{
 			System.out.println("Launchng IE");
-			String ieDriverPath=System.getProperty("user.dir")+File.separator+"src"+File.separator+"main"+File.separator+"resources"+File.separator+"Drivers"+File.separator+"IEDriverServer.exe";
+			String ieDriverPath=System.getProperty("user.dir")+File.separator+"src"+File.separator+"main"
+			+File.separator+"resources"+File.separator+"Drivers"+File.separator+"IEDriverServer.exe";
 			System.out.println(ieDriverPath);
 			System.setProperty("webdriver.ie.driver", ieDriverPath);
 			DesiredCapabilities IEcaps = DesiredCapabilities.internetExplorer();
@@ -60,6 +66,16 @@ public class TestBase {
 				e.printStackTrace();
 				driver.quit();
 			}
+		}else if(browserName.equalsIgnoreCase("safari")){
+				driver=new SafariDriver();
+		}else if(browserName.equalsIgnoreCase("opera")){
+				String operaDriverPath=System.getProperty("user.dir")+File.separator+"src"+File.separator+"main"
+						+File.separator+"resources"+File.separator+"Drivers"+File.separator+"operadriver"+File.separator+"operadriver.exe";
+				System.out.println(operaDriverPath);
+				System.setProperty("webdriver.opera.driver", operaDriverPath);
+				OperaOptions options = new OperaOptions();
+				options.setBinary(new File("C:\\Program Files\\Opera\\49.0.2725.47\\opera.exe"));
+				driver=new OperaDriver(options);
 		}else{
 			System.out.println("Browser Not Supported");
 		}
