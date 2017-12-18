@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Free CRM Test Automation Suite]">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Free CRM Test Automation Suite]">
   <listeners>
     <listener class-name="com.crm.qa.ExtentReportListener.ExtentReporterNG"/>
   </listeners>
