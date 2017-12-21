@@ -35,7 +35,7 @@ public class ContactsPage extends TestBase {
 	
 	
 	public ContactsPage(){
-		PageFactory.initElements(driver, this);		
+		PageFactory.initElements(getDriver(), this);		
 	}
 	
 	public String validateContactPageLabel(){
@@ -59,7 +59,7 @@ public class ContactsPage extends TestBase {
 	
 	public boolean validateNewContactName(String fname,String surname){
 		
-		return driver.findElement(By.xpath("//td[contains(text(),'"+fname+" "+surname+"')]")).isDisplayed();
+		return getDriver().findElement(By.xpath("//td[contains(text(),'"+fname+" "+surname+"')]")).isDisplayed();
 	}
 	
 	

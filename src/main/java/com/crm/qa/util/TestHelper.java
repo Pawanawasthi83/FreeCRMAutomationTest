@@ -7,24 +7,27 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.crm.qa.base.TestBase;
 
 public class TestHelper extends TestBase{
 
 	public static long PAGE_LOAD_TIMEOUT=120;
-	public static long IMPLICIT_WAIT=30;
-	public static long EXPLICIT_WAIT=30;
+	public static long IMPLICIT_WAIT=60;
+	public static long EXPLICIT_WAIT=60;
 	
 	public static void switchToFrame(WebElement frame){
+		WebDriverWait wait = new WebDriverWait(getDriver(), EXPLICIT_WAIT);
+		wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(frame));
 		
-		driver.switchTo().frame(frame);
 	}
 	
 	public static void takeScreenShot(){
 		String targetPath=System.getProperty("user.dir")
 				+File.separator+"screenshots"+File.separator+System.currentTimeMillis()+".jpg";
-		TakesScreenshot ts = (TakesScreenshot)driver;
+		TakesScreenshot ts = (TakesScreenshot)getDriver();
 		File srcfile = ts.getScreenshotAs(OutputType.FILE);
 		try {
 			FileUtils.copyFile(srcfile, new File(targetPath));

@@ -91,6 +91,7 @@ public class WebDriverEventListenerHelper extends TestBase implements org.openqa
 	public void onException(Throwable e, WebDriver driver) {
 		
 		TestHelper.takeScreenShot();
+		//getDriver().quit();
 		
 	}
 

@@ -1,263 +1,312 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="3" failed="0" ignored="0" total="3" passed="0">
+<testng-results skipped="1" failed="0" ignored="0" total="13" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="Free CRM Test Automation Suite" duration-ms="3519" started-at="2017-12-18T14:13:12Z" finished-at="2017-12-18T14:13:15Z">
+  <suite name="Free CRM Test Automation Suite" duration-ms="387165" started-at="2017-12-21T11:22:55Z" finished-at="2017-12-21T11:29:22Z">
     <groups>
     </groups>
-    <test name="Free CRM Test Suite" duration-ms="3519" started-at="2017-12-18T14:13:12Z" finished-at="2017-12-18T14:13:15Z">
+    <test name="Free CRM Test Suite for Chrome Browser" duration-ms="244098" started-at="2017-12-21T11:22:55Z" finished-at="2017-12-21T11:26:59Z">
       <class name="com.crm.qa.testcases.LoginPageTest">
-        <test-method status="FAIL" signature="setup()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3e6fa38a]" name="setup" is-config="true" duration-ms="3426" started-at="2017-12-18T19:43:12Z" finished-at="2017-12-18T19:43:15Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[disconnected: unable to connect to renderer
-  (Session info: chrome with embedded Chromium 62.0.3202.89)
-  (Driver info: OperaDriver=2.30,platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 88 milliseconds
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'WIN-NMJ1FQIGA39', ip: '192.168.65.128', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_122-ea'
-Driver info: org.openqa.selenium.opera.OperaDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30, userDataDir=C:\Users\parth.c\AppData\Local\Temp\scoped_dir2444_17429}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: ce76fa10b9a0311164c2e04b6ef01cc0]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
-  (Session info: chrome with embedded Chromium 62.0.3202.89)
-  (Driver info: OperaDriver=2.30,platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 88 milliseconds
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'WIN-NMJ1FQIGA39', ip: '192.168.65.128', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_122-ea'
-Driver info: org.openqa.selenium.opera.OperaDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30, userDataDir=C:\Users\parth.c\AppData\Local\Temp\scoped_dir2444_17429}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: ce76fa10b9a0311164c2e04b6ef01cc0
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:945)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWindow.maximize(EventFiringWebDriver.java:644)
-	at com.crm.qa.base.TestBase.initialization(TestBase.java:87)
-	at com.crm.qa.testcases.LoginPageTest.setup(LoginPageTest.java:23)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@13deb50e]" name="setup" is-config="true" duration-ms="21920" started-at="2017-12-21T16:52:55Z" finished-at="2017-12-21T16:53:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="testLoginPageTitleText()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@3e6fa38a]" name="testLoginPageTitleText" duration-ms="0" started-at="2017-12-18T19:43:15Z" finished-at="2017-12-18T19:43:15Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[disconnected: unable to connect to renderer
-  (Session info: chrome with embedded Chromium 62.0.3202.89)
-  (Driver info: OperaDriver=2.30,platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 88 milliseconds
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'WIN-NMJ1FQIGA39', ip: '192.168.65.128', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_122-ea'
-Driver info: org.openqa.selenium.opera.OperaDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30, userDataDir=C:\Users\parth.c\AppData\Local\Temp\scoped_dir2444_17429}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: ce76fa10b9a0311164c2e04b6ef01cc0]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
-  (Session info: chrome with embedded Chromium 62.0.3202.89)
-  (Driver info: OperaDriver=2.30,platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 88 milliseconds
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'WIN-NMJ1FQIGA39', ip: '192.168.65.128', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_122-ea'
-Driver info: org.openqa.selenium.opera.OperaDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30, userDataDir=C:\Users\parth.c\AppData\Local\Temp\scoped_dir2444_17429}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: ce76fa10b9a0311164c2e04b6ef01cc0
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:945)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWindow.maximize(EventFiringWebDriver.java:644)
-	at com.crm.qa.base.TestBase.initialization(TestBase.java:87)
-	at com.crm.qa.testcases.LoginPageTest.setup(LoginPageTest.java:23)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@13deb50e]" name="setup" is-config="true" duration-ms="42846" started-at="2017-12-21T16:53:17Z" finished-at="2017-12-21T16:54:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testLoginPageTitleText()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@13deb50e]" name="testLoginPageTitleText" duration-ms="1212" started-at="2017-12-21T16:54:00Z" finished-at="2017-12-21T16:54:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginPageTitleText -->
-        <test-method status="SKIP" signature="setup()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3e6fa38a]" name="setup" is-config="true" duration-ms="0" started-at="2017-12-18T19:43:15Z" finished-at="2017-12-18T19:43:15Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@13deb50e]" name="teardown" is-config="true" duration-ms="49305" started-at="2017-12-21T16:54:01Z" finished-at="2017-12-21T16:54:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@13deb50e]" name="setup" is-config="true" duration-ms="40380" started-at="2017-12-21T16:54:51Z" finished-at="2017-12-21T16:55:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="testCRMLogoImage()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@3e6fa38a]" name="testCRMLogoImage" duration-ms="0" started-at="2017-12-18T19:43:15Z" finished-at="2017-12-18T19:43:15Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[disconnected: unable to connect to renderer
-  (Session info: chrome with embedded Chromium 62.0.3202.89)
-  (Driver info: OperaDriver=2.30,platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 88 milliseconds
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'WIN-NMJ1FQIGA39', ip: '192.168.65.128', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_122-ea'
-Driver info: org.openqa.selenium.opera.OperaDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30, userDataDir=C:\Users\parth.c\AppData\Local\Temp\scoped_dir2444_17429}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: ce76fa10b9a0311164c2e04b6ef01cc0]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
-  (Session info: chrome with embedded Chromium 62.0.3202.89)
-  (Driver info: OperaDriver=2.30,platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 88 milliseconds
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'WIN-NMJ1FQIGA39', ip: '192.168.65.128', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_122-ea'
-Driver info: org.openqa.selenium.opera.OperaDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30, userDataDir=C:\Users\parth.c\AppData\Local\Temp\scoped_dir2444_17429}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: ce76fa10b9a0311164c2e04b6ef01cc0
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:945)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWindow.maximize(EventFiringWebDriver.java:644)
-	at com.crm.qa.base.TestBase.initialization(TestBase.java:87)
-	at com.crm.qa.testcases.LoginPageTest.setup(LoginPageTest.java:23)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="testCRMLogoImage()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@13deb50e]" name="testCRMLogoImage" duration-ms="1569" started-at="2017-12-21T16:55:31Z" finished-at="2017-12-21T16:55:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCRMLogoImage -->
-        <test-method status="SKIP" signature="setup()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3e6fa38a]" name="setup" is-config="true" duration-ms="0" started-at="2017-12-18T19:43:15Z" finished-at="2017-12-18T19:43:15Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@13deb50e]" name="teardown" is-config="true" duration-ms="3030" started-at="2017-12-21T16:55:33Z" finished-at="2017-12-21T16:55:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@13deb50e]" name="setup" is-config="true" duration-ms="31949" started-at="2017-12-21T16:55:36Z" finished-at="2017-12-21T16:56:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="testLogin()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@3e6fa38a]" name="testLogin" duration-ms="0" started-at="2017-12-18T19:43:15Z" finished-at="2017-12-18T19:43:15Z">
-          <exception class="org.openqa.selenium.WebDriverException">
+        <test-method status="PASS" signature="testLogin()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@13deb50e]" name="testLogin" duration-ms="49390" started-at="2017-12-21T16:56:08Z" finished-at="2017-12-21T16:56:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@13deb50e]" name="teardown" is-config="true" duration-ms="2237" started-at="2017-12-21T16:56:57Z" finished-at="2017-12-21T16:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+    </test> <!-- Free CRM Test Suite for Chrome Browser -->
+    <test name="Free CRM Test Suite For IE Browser" duration-ms="268434" started-at="2017-12-21T11:22:55Z" finished-at="2017-12-21T11:27:24Z">
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@14bf9759]" name="setup" is-config="true" duration-ms="104933" started-at="2017-12-21T16:52:55Z" finished-at="2017-12-21T16:54:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@14bf9759]" name="setup" is-config="true" duration-ms="39840" started-at="2017-12-21T16:54:40Z" finished-at="2017-12-21T16:55:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testLoginPageTitleText()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@14bf9759]" name="testLoginPageTitleText" duration-ms="136" started-at="2017-12-21T16:55:20Z" finished-at="2017-12-21T16:55:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPageTitleText -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@14bf9759]" name="teardown" is-config="true" duration-ms="2335" started-at="2017-12-21T16:55:20Z" finished-at="2017-12-21T16:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@14bf9759]" name="setup" is-config="true" duration-ms="17147" started-at="2017-12-21T16:55:22Z" finished-at="2017-12-21T16:55:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testCRMLogoImage()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@14bf9759]" name="testCRMLogoImage" duration-ms="4624" started-at="2017-12-21T16:55:39Z" finished-at="2017-12-21T16:55:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCRMLogoImage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@14bf9759]" name="teardown" is-config="true" duration-ms="1848" started-at="2017-12-21T16:55:44Z" finished-at="2017-12-21T16:55:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@14bf9759]" name="setup" is-config="true" duration-ms="22007" started-at="2017-12-21T16:55:46Z" finished-at="2017-12-21T16:56:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testLogin()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@14bf9759]" name="testLogin" duration-ms="70485" started-at="2017-12-21T16:56:08Z" finished-at="2017-12-21T16:57:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@14bf9759]" name="teardown" is-config="true" duration-ms="5042" started-at="2017-12-21T16:57:18Z" finished-at="2017-12-21T16:57:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+    </test> <!-- Free CRM Test Suite For IE Browser -->
+    <test name="Free CRM Test Suite for Fire fox Browser" duration-ms="357323" started-at="2017-12-21T11:22:55Z" finished-at="2017-12-21T11:28:52Z">
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3bfdc050]" name="setup" is-config="true" duration-ms="125590" started-at="2017-12-21T16:52:55Z" finished-at="2017-12-21T16:55:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3bfdc050]" name="setup" is-config="true" duration-ms="90956" started-at="2017-12-21T16:55:01Z" finished-at="2017-12-21T16:56:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testLoginPageTitleText()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@3bfdc050]" name="testLoginPageTitleText" duration-ms="3632" started-at="2017-12-21T16:56:32Z" finished-at="2017-12-21T16:56:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPageTitleText -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3bfdc050]" name="teardown" is-config="true" duration-ms="8103" started-at="2017-12-21T16:56:35Z" finished-at="2017-12-21T16:56:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3bfdc050]" name="setup" is-config="true" duration-ms="66994" started-at="2017-12-21T16:56:43Z" finished-at="2017-12-21T16:57:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testCRMLogoImage()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@3bfdc050]" name="testCRMLogoImage" duration-ms="3673" started-at="2017-12-21T16:57:50Z" finished-at="2017-12-21T16:57:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCRMLogoImage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3bfdc050]" name="teardown" is-config="true" duration-ms="1930" started-at="2017-12-21T16:57:54Z" finished-at="2017-12-21T16:57:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3bfdc050]" name="setup" is-config="true" duration-ms="29027" started-at="2017-12-21T16:57:56Z" finished-at="2017-12-21T16:58:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testLogin()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@3bfdc050]" name="testLogin" duration-ms="25920" started-at="2017-12-21T16:58:25Z" finished-at="2017-12-21T16:58:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3bfdc050]" name="teardown" is-config="true" duration-ms="1458" started-at="2017-12-21T16:58:51Z" finished-at="2017-12-21T16:58:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+    </test> <!-- Free CRM Test Suite for Fire fox Browser -->
+    <test name="Free CRM Test Suite For opera Browser" duration-ms="387164" started-at="2017-12-21T11:22:55Z" finished-at="2017-12-21T11:29:22Z">
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6500df86]" name="setup" is-config="true" duration-ms="31455" started-at="2017-12-21T16:52:55Z" finished-at="2017-12-21T16:53:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6500df86]" name="setup" is-config="true" duration-ms="64661" started-at="2017-12-21T16:53:27Z" finished-at="2017-12-21T16:54:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testLoginPageTitleText()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@6500df86]" name="testLoginPageTitleText" duration-ms="137" started-at="2017-12-21T16:54:31Z" finished-at="2017-12-21T16:54:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPageTitleText -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6500df86]" name="teardown" is-config="true" duration-ms="19310" started-at="2017-12-21T16:54:31Z" finished-at="2017-12-21T16:54:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6500df86]" name="setup" is-config="true" duration-ms="42046" started-at="2017-12-21T16:54:51Z" finished-at="2017-12-21T16:55:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testCRMLogoImage()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@6500df86]" name="testCRMLogoImage" duration-ms="1576" started-at="2017-12-21T16:55:33Z" finished-at="2017-12-21T16:55:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCRMLogoImage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6500df86]" name="teardown" is-config="true" duration-ms="1425" started-at="2017-12-21T16:55:34Z" finished-at="2017-12-21T16:55:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6500df86]" name="setup" is-config="true" duration-ms="42199" started-at="2017-12-21T16:55:36Z" finished-at="2017-12-21T16:56:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="testLogin()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@6500df86]" name="testLogin" duration-ms="151366" started-at="2017-12-21T16:56:18Z" finished-at="2017-12-21T16:58:49Z">
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[disconnected: unable to connect to renderer
-  (Session info: chrome with embedded Chromium 62.0.3202.89)
-  (Driver info: OperaDriver=2.30,platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 88 milliseconds
+              <![CDATA[Timed out after 60 seconds waiting for frame to be available: Proxy element for: DefaultElementLocator 'By.xpath: //frame[@name='mainpanel']'
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
 System info: host: 'WIN-NMJ1FQIGA39', ip: '192.168.65.128', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_122-ea'
-Driver info: org.openqa.selenium.opera.OperaDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30, userDataDir=C:\Users\parth.c\AppData\Local\Temp\scoped_dir2444_17429}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: ce76fa10b9a0311164c2e04b6ef01cc0]]>
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
-  (Session info: chrome with embedded Chromium 62.0.3202.89)
-  (Driver info: OperaDriver=2.30,platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 88 milliseconds
+              <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for frame to be available: Proxy element for: DefaultElementLocator 'By.xpath: //frame[@name='mainpanel']'
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
 System info: host: 'WIN-NMJ1FQIGA39', ip: '192.168.65.128', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_122-ea'
-Driver info: org.openqa.selenium.opera.OperaDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30, userDataDir=C:\Users\parth.c\AppData\Local\Temp\scoped_dir2444_17429}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: ce76fa10b9a0311164c2e04b6ef01cc0
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:945)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWindow.maximize(EventFiringWebDriver.java:644)
-	at com.crm.qa.base.TestBase.initialization(TestBase.java:87)
-	at com.crm.qa.testcases.LoginPageTest.setup(LoginPageTest.java:23)
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at com.crm.qa.util.TestHelper.switchToFrame(TestHelper.java:23)
+	at com.crm.qa.pages.HomePage.getHomePageTitle(HomePage.java:40)
+	at com.crm.qa.testcases.LoginPageTest.testLogin(LoginPageTest.java:43)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
@@ -265,25 +314,81 @@ Session ID: ce76fa10b9a0311164c2e04b6ef01cc0
 	at org.testng.TestRunner.privateRun(TestRunner.java:744)
 	at org.testng.TestRunner.run(TestRunner.java:602)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//frame[@name='mainpanel']"}
+  (Session info: chrome with embedded Chromium 62.0.3202.89)
+  (Driver info: OperaDriver=2.30,platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.20 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'WIN-NMJ1FQIGA39', ip: '192.168.65.128', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_122-ea'
+Driver info: org.openqa.selenium.opera.OperaDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30, userDataDir=C:\Users\parth.c\AppData\Local\Temp\scoped_dir12020_14978}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 8492dbb3e80d28e01d1b38f0182288dc
+*** Element info: {Using=xpath, value=//frame[@name='mainpanel']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy9.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:49)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:1003)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringTargetLocator.frame(EventFiringWebDriver.java:595)
+	at org.openqa.selenium.support.ui.ExpectedConditions$19.apply(ExpectedConditions.java:559)
+	at org.openqa.selenium.support.ui.ExpectedConditions$19.apply(ExpectedConditions.java:555)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	... 23 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6500df86]" name="teardown" is-config="true" duration-ms="1690" started-at="2017-12-21T16:58:49Z" finished-at="2017-12-21T16:58:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6500df86]" name="setup" is-config="true" duration-ms="16671" started-at="2017-12-21T16:58:51Z" finished-at="2017-12-21T16:59:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testLogin()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@6500df86]" name="testLogin" duration-ms="13426" started-at="2017-12-21T16:59:08Z" finished-at="2017-12-21T16:59:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6500df86]" name="teardown" is-config="true" duration-ms="1067" started-at="2017-12-21T16:59:21Z" finished-at="2017-12-21T16:59:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
       </class> <!-- com.crm.qa.testcases.LoginPageTest -->
-    </test> <!-- Free CRM Test Suite -->
+    </test> <!-- Free CRM Test Suite For opera Browser -->
   </suite> <!-- Free CRM Test Automation Suite -->
 </testng-results>

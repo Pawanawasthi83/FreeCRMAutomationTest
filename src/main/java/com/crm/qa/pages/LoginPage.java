@@ -3,8 +3,11 @@ package com.crm.qa.pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.crm.qa.base.TestBase;
+import com.crm.qa.util.TestHelper;
 
 public class LoginPage extends TestBase{
 
@@ -28,13 +31,13 @@ public class LoginPage extends TestBase{
 	//Initializing the Page Objects:
 	
 	public LoginPage(){
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(getDriver(), this);
 	}
 	
 	//Actions :
 	
 	public String getLoginPageTitle(){
-		return driver.getTitle();
+		return getDriver().getTitle();
 	}
 	
 	public boolean validateCrmLogo(){
@@ -44,6 +47,8 @@ public class LoginPage extends TestBase{
 	public HomePage login(String usrname,String pwd){
 		userName.sendKeys(usrname);
 		password.sendKeys(pwd);
+		WebDriverWait wait= new WebDriverWait(getDriver(), TestHelper.EXPLICIT_WAIT);
+		wait.until(ExpectedConditions.elementToBeClickable(loginBtn));
 		loginBtn.click();
 		return new HomePage();
 	}

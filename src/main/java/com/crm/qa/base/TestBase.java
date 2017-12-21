@@ -22,72 +22,87 @@ import com.crm.qa.util.WebDriverEventListenerHelper;;
 
 public class TestBase {
 
-	public static WebDriver driver;
+	public static ThreadLocal<WebDriver> driver = new ThreadLocal<WebDriver>();
 	public static Properties prop;
-	
+
 	public TestBase() {
-		String path=System.getProperty("user.dir")+File.separator+"src"+File.separator+"main"+File.separator
-				+"java"+File.separator+"com"+File.separator+"crm"+File.separator+"qa"+File.separator+"config"
-				+File.separator+"config.properties";
-		
-		try{
-			prop=new Properties();
+		String path = System.getProperty("user.dir") + File.separator + "src" + File.separator + "main" + File.separator
+				+ "java" + File.separator + "com" + File.separator + "crm" + File.separator + "qa" + File.separator
+				+ "config" + File.separator + "config.properties";
+
+		try {
+			prop = new Properties();
 			FileInputStream fis = new FileInputStream(path);
 			prop.load(fis);
-		}catch(FileNotFoundException e){
+		} catch (FileNotFoundException e) {
 			e.printStackTrace();
-		}catch(IOException e){
+		} catch (IOException e) {
 			e.printStackTrace();
 		}
 	}
-	
-	public static void initialization() {
-		String browserName=prop.getProperty("browser");
-		System.out.println("Setting browser :  "+browserName);	
-		if(browserName.equalsIgnoreCase("FF")){
-			driver=new FirefoxDriver();
-		}else if(browserName.equalsIgnoreCase("chrome")){
+
+	public static void initialization(String browser) {
+		// String browserName=prop.getProperty("browser");
+		String browserName = browser;
+		System.out.println("Setting browser :  " + browserName);
+		if (browserName.equalsIgnoreCase("FF")) {
+			System.setProperty("webdriver.firefox.logfile", System.getProperty("user.dir") + File.separator + "Logs"
+					+ File.separator + "FireFoxBrowser_logs.log");
+			System.setProperty("webdriver.firefox.bin", "C:\\Program Files\\Mozilla Firefox\\firefox.exe");
 			
-			String chromeDriverPath=System.getProperty("user.dir")+File.separator+"src"+File.separator+"main"
-					+File.separator+"resources"+File.separator+"Drivers"+File.separator+"chromedriver.exe";
-				System.setProperty("webdriver.chrome.driver", chromeDriverPath);
-				driver = new ChromeDriver();
-		}else if(browserName.equalsIgnoreCase("ie")){
-			try{
-			System.out.println("Launchng IE");
-			String ieDriverPath=System.getProperty("user.dir")+File.separator+"src"+File.separator+"main"
-			+File.separator+"resources"+File.separator+"Drivers"+File.separator+"IEDriverServer.exe";
-			System.out.println(ieDriverPath);
-			System.setProperty("webdriver.ie.driver", ieDriverPath);
-			DesiredCapabilities IEcaps = DesiredCapabilities.internetExplorer();
-			IEcaps .setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS,true);
-			driver=new InternetExplorerDriver(IEcaps);
-			}catch(Exception e){
+			driver.set(new FirefoxDriver());
+		} else if (browserName.equalsIgnoreCase("chrome")) {
+			String chromeDriverPath = System.getProperty("user.dir") + File.separator + "src" + File.separator + "main"
+					+ File.separator + "resources" + File.separator + "Drivers" + File.separator + "chromedriver.exe";
+			System.setProperty("webdriver.chrome.driver", chromeDriverPath);
+			driver.set(new ChromeDriver());
+		} else if (browserName.equalsIgnoreCase("ie")) {
+			try {
+				System.out.println("Launchng IE");
+				String ieDriverPath = System.getProperty("user.dir") + File.separator + "src" + File.separator + "main"
+						+ File.separator + "resources" + File.separator + "Drivers" + File.separator
+						+ "IEDriverServer.exe";
+				System.out.println(ieDriverPath);
+				System.setProperty("webdriver.ie.driver", ieDriverPath);
+				DesiredCapabilities IEcaps = DesiredCapabilities.internetExplorer();
+				IEcaps.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
+				// driver = new InternetExplorerDriver(IEcaps);
+				driver.set(new InternetExplorerDriver(IEcaps));
+			} catch (Exception e) {
 				e.printStackTrace();
-				driver.quit();
+				driver.get().quit();
 			}
-		}else if(browserName.equalsIgnoreCase("safari")){
-				driver=new SafariDriver();
-		}else if(browserName.equalsIgnoreCase("opera")){
-				String operaDriverPath=System.getProperty("user.dir")+File.separator+"src"+File.separator+"main"
-						+File.separator+"resources"+File.separator+"Drivers"+File.separator+"operadriver"+File.separator+"operadriver.exe";
-				System.out.println(operaDriverPath);
-				System.setProperty("webdriver.opera.driver", operaDriverPath);
-				OperaOptions options = new OperaOptions();
-				options.setBinary(new File("C:\\Program Files\\Opera\\49.0.2725.47\\opera.exe"));
-				driver=new OperaDriver(options);
-		}else{
+		} else if (browserName.equalsIgnoreCase("safari")) {
+
+			driver.set(new SafariDriver());
+
+		} else if (browserName.equalsIgnoreCase("opera")) {
+			String operaDriverPath = System.getProperty("user.dir") + File.separator + "src" + File.separator + "main"
+					+ File.separator + "resources" + File.separator + "Drivers" + File.separator + "operadriver"
+					+ File.separator + "operadriver.exe";
+			System.out.println(operaDriverPath);
+			System.setProperty("webdriver.opera.driver", operaDriverPath);
+			OperaOptions options = new OperaOptions();
+			options.setBinary(new File("C:\\Program Files\\Opera\\49.0.2725.47\\opera.exe"));
+			// driver = new OperaDriver(options);
+			driver.set(new OperaDriver(options));
+		} else {
 			System.out.println("Browser Not Supported");
 		}
-		
-		EventFiringWebDriver e_driver = new EventFiringWebDriver(driver);
+
+		EventFiringWebDriver e_driver = new EventFiringWebDriver(driver.get());
 		WebDriverEventListenerHelper listerner = new WebDriverEventListenerHelper();
 		e_driver.register(listerner);
-		driver=e_driver;
-		driver.manage().window().maximize();
-		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().pageLoadTimeout(TestHelper.PAGE_LOAD_TIMEOUT,TimeUnit.SECONDS);
-		driver.manage().timeouts().implicitlyWait(TestHelper.IMPLICIT_WAIT,TimeUnit.SECONDS);
-		driver.get(prop.getProperty("URL"));
+		driver.set(e_driver);
+		// getDriver().manage().window().maximize();
+		getDriver().manage().deleteAllCookies();
+		getDriver().manage().timeouts().pageLoadTimeout(TestHelper.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
+		getDriver().manage().timeouts().implicitlyWait(TestHelper.IMPLICIT_WAIT, TimeUnit.SECONDS);
+		getDriver().get(prop.getProperty("URL"));
 	}
+
+	public static WebDriver getDriver() {
+		return driver.get();
+	}
+
 }
