@@ -1,15 +1,13 @@
-package com.crm.qa.analyzer;
+package com.crm.qa.utils.listeners;
 
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
 
-public class RetryAnalyzer implements IRetryAnalyzer {
+public class Retry implements IRetryAnalyzer {
 	int counter =0;
 	int counterLimit=3;
 	public boolean retry(ITestResult result) {
-		System.out.println("Status : "+result.getStatus());
-		System.out.println("======"+counter);
-		if(result.getStatus()==2){
+		if(!result.isSuccess()){
 		if(counter<counterLimit){
 			counter++;
 			return true;

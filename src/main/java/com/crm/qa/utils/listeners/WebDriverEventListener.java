@@ -1,12 +1,13 @@
-package com.crm.qa.util;
+package com.crm.qa.utils.listeners;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import com.crm.qa.base.TestBase;
+import com.crm.qa.utils.commonutils.TestHelper;
 
-public class WebDriverEventListenerHelper extends TestBase implements org.openqa.selenium.support.events.WebDriverEventListener {
+public class WebDriverEventListener extends TestBase implements org.openqa.selenium.support.events.WebDriverEventListener {
 
 	public void afterChangeValueOf(WebElement element, WebDriver driver) {
 		// TODO Auto-generated method stub
@@ -90,8 +91,6 @@ public class WebDriverEventListenerHelper extends TestBase implements org.openqa
 
 	public void onException(Throwable e, WebDriver driver) {
 		
-		TestHelper.takeScreenShot();
-		//getDriver().quit();
 		
 	}
 

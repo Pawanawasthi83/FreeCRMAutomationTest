@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.crm.qa.base.TestBase;
-import com.crm.qa.util.TestHelper;
+import com.crm.qa.utils.commonutils.TestHelper;
 
 public class HomePage extends TestBase{
 

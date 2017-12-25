@@ -1,18 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [Free CRM Test Automation Suite]" parallel="tests">
+<suite thread-count="10" guice-stage="DEVELOPMENT" name="Failed suite [Free CRM Test Automation Suite]" parallel="methods">
   <listeners>
-    <listener class-name="com.crm.qa.ExtentReportListener.ExtentReporterNG"/>
-    <listener class-name="com.crm.qa.analyzer.AnnotationTransformer"/>
+    <listener class-name="com.crm.qa.utils.listeners.ExtentITestListener"/>
+    <listener class-name="com.crm.qa.utils.listeners.AnnotationTransformer"/>
   </listeners>
-  <test name="Free CRM Test Suite For opera Browser(failed)" parallel="tests">
-    <parameter name="browser" value="opera"/>
+  <test name="Free CRM Test Suite for Fire fox Browser(failed)" parallel="methods">
+    <parameter name="browser" value="FF"/>
     <classes>
       <class name="com.crm.qa.testcases.LoginPageTest">
         <methods>
           <include name="testLogin"/>
           <include name="setup"/>
           <include name="teardown"/>
+          <include name="testCRMLogoImage"/>
+          <include name="testLoginPageTitleText"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Free CRM Test Suite for Fire fox Browser(failed) -->
+  <test name="Free CRM Test Suite for Chrome Browser(failed)" parallel="methods">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="testLoginPageTitleText"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Free CRM Test Suite for Chrome Browser(failed) -->
+  <test name="Free CRM Test Suite For IE Browser(failed)" parallel="methods">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="testLoginPageTitleText"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Free CRM Test Suite For IE Browser(failed) -->
+  <test name="Free CRM Test Suite For opera Browser(failed)" parallel="methods">
+    <parameter name="browser" value="opera"/>
+    <classes>
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="testLoginPageTitleText"/>
         </methods>
       </class> <!-- com.crm.qa.testcases.LoginPageTest -->
     </classes>

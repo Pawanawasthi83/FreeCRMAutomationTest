@@ -1,4 +1,4 @@
-package com.crm.qa.ExtentReportListener;
+package com.crm.qa.utils.listeners;
 
 import java.io.File;
 
@@ -19,7 +19,7 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
-public class ExtentReporterNG implements IReporter {
+public class ExtentIReporter implements IReporter {
 
 	private ExtentReports extent;
 

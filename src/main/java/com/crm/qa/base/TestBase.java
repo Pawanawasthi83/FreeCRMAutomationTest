@@ -6,10 +6,13 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
+import java.util.function.Supplier;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxBinary;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.opera.OperaOptions;
@@ -17,12 +20,12 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 
-import com.crm.qa.util.TestHelper;
-import com.crm.qa.util.WebDriverEventListenerHelper;;
+import com.crm.qa.utils.commonutils.TestHelper;
+import com.crm.qa.utils.listeners.WebDriverEventListener;;
 
 public class TestBase {
 
-	public static ThreadLocal<WebDriver> driver = new ThreadLocal<WebDriver>();
+	private  static ThreadLocal<WebDriver> driver = new ThreadLocal<WebDriver>();
 	public static Properties prop;
 
 	public TestBase() {
@@ -46,18 +49,21 @@ public class TestBase {
 		String browserName = browser;
 		System.out.println("Setting browser :  " + browserName);
 		if (browserName.equalsIgnoreCase("FF")) {
+			
 			System.setProperty("webdriver.firefox.logfile", System.getProperty("user.dir") + File.separator + "Logs"
 					+ File.separator + "FireFoxBrowser_logs.log");
-			System.setProperty("webdriver.firefox.bin", "C:\\Program Files\\Mozilla Firefox\\firefox.exe");
+			//System.setProperty("webdriver.firefox.bin", "C:\\Program Files\\Mozilla Firefox\\firefox.exe");
+			FirefoxBinary binary = new FirefoxBinary(new File("C:\\Program Files\\Mozilla Firefox\\firefox.exe"));
+			FirefoxProfile profile = new FirefoxProfile();
 			
-			driver.set(new FirefoxDriver());
+			driver.set(new FirefoxDriver(binary, profile));
 		} else if (browserName.equalsIgnoreCase("chrome")) {
 			String chromeDriverPath = System.getProperty("user.dir") + File.separator + "src" + File.separator + "main"
 					+ File.separator + "resources" + File.separator + "Drivers" + File.separator + "chromedriver.exe";
 			System.setProperty("webdriver.chrome.driver", chromeDriverPath);
 			driver.set(new ChromeDriver());
 		} else if (browserName.equalsIgnoreCase("ie")) {
-			try {
+			
 				System.out.println("Launchng IE");
 				String ieDriverPath = System.getProperty("user.dir") + File.separator + "src" + File.separator + "main"
 						+ File.separator + "resources" + File.separator + "Drivers" + File.separator
@@ -66,12 +72,9 @@ public class TestBase {
 				System.setProperty("webdriver.ie.driver", ieDriverPath);
 				DesiredCapabilities IEcaps = DesiredCapabilities.internetExplorer();
 				IEcaps.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
-				// driver = new InternetExplorerDriver(IEcaps);
+				
 				driver.set(new InternetExplorerDriver(IEcaps));
-			} catch (Exception e) {
-				e.printStackTrace();
-				driver.get().quit();
-			}
+			
 		} else if (browserName.equalsIgnoreCase("safari")) {
 
 			driver.set(new SafariDriver());
@@ -86,12 +89,13 @@ public class TestBase {
 			options.setBinary(new File("C:\\Program Files\\Opera\\49.0.2725.47\\opera.exe"));
 			// driver = new OperaDriver(options);
 			driver.set(new OperaDriver(options));
+			
 		} else {
 			System.out.println("Browser Not Supported");
 		}
 
 		EventFiringWebDriver e_driver = new EventFiringWebDriver(driver.get());
-		WebDriverEventListenerHelper listerner = new WebDriverEventListenerHelper();
+		WebDriverEventListener listerner = new WebDriverEventListener();
 		e_driver.register(listerner);
 		driver.set(e_driver);
 		// getDriver().manage().window().maximize();

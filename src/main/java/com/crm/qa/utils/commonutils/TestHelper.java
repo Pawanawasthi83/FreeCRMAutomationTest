@@ -1,4 +1,4 @@
-package com.crm.qa.util;
+package com.crm.qa.utils.commonutils;
 
 import java.io.File;
 import java.io.IOException;
@@ -24,9 +24,9 @@ public class TestHelper extends TestBase{
 		
 	}
 	
-	public static void takeScreenShot(){
+	public static String takeScreenShot(String methodName){
 		String targetPath=System.getProperty("user.dir")
-				+File.separator+"screenshots"+File.separator+System.currentTimeMillis()+".jpg";
+				+File.separator+"screenshots"+File.separator+methodName+"_"+System.currentTimeMillis()+".jpg";
 		TakesScreenshot ts = (TakesScreenshot)getDriver();
 		File srcfile = ts.getScreenshotAs(OutputType.FILE);
 		try {
@@ -35,6 +35,7 @@ public class TestHelper extends TestBase{
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		return targetPath;
 		
 	}
 	

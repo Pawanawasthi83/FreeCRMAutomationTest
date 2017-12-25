@@ -11,7 +11,8 @@ import com.crm.qa.base.TestBase;
 import com.crm.qa.pages.ContactsPage;
 import com.crm.qa.pages.HomePage;
 import com.crm.qa.pages.LoginPage;
-import com.crm.qa.util.DataProviderHelper;
+import com.crm.qa.utils.commonutils.DataProviderHelper;
+
 
 public class ContactsPageTest extends TestBase {
 
