@@ -1,0 +1,113 @@
+I 2017-12-27 19:34:09:496 server.cc(86) Starting WebDriver server on port: '43354' on host: ''
+I 2017-12-27 19:34:09:497 IEServer.cpp(32) Driver version: 2.53.0.0 (32-bit)
+W 2017-12-27 19:34:09:905 c:\projects\webdriver\cpp\iedriver\CommandHandlers/NewSessionCommandHandler.h(180) Invalid capability setting: elementScrollBehavior is type boolean instead of number. Default value will be used: 0
+
+W 2017-12-27 19:34:09:905 c:\projects\webdriver\cpp\iedriver\CommandHandlers/NewSessionCommandHandler.h(180) Invalid capability setting: pageLoadStrategy is type boolean instead of string. Default value will be used: "normal"
+
+I 2017-12-27 19:34:22:288 IECommandExecutor.cpp(678) Persistent hovering set to: 0
+I 2017-12-27 19:34:22:288 IECommandExecutor.cpp(680) Stopping previously-running persistent event thread.
+I 2017-12-27 19:34:22:368 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:34:31:815 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:34:32:390 VariantUtilities.cpp(179) Unknown type of dispatch is found in result, assuming IHTMLElement
+I 2017-12-27 19:34:32:538 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:34:35:971 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:34:38:089 VariantUtilities.cpp(179) Unknown type of dispatch is found in result, assuming IHTMLElement
+I 2017-12-27 19:34:38:370 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:34:39:775 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:34:40:424 VariantUtilities.cpp(179) Unknown type of dispatch is found in result, assuming IHTMLElement
+I 2017-12-27 19:34:40:587 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:34:41:317 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:34:41:654 VariantUtilities.cpp(179) Unknown type of dispatch is found in result, assuming IHTMLElement
+I 2017-12-27 19:34:41:712 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:34:41:988 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:34:42:322 VariantUtilities.cpp(179) Unknown type of dispatch is found in result, assuming IHTMLElement
+I 2017-12-27 19:34:42:372 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:34:43:868 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:34:44:553 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-12-27 19:34:46:011 VariantUtilities.cpp(221) -2147352573 [Member not found.]: Unable to get result for property __webdriver_script_fn
+W 2017-12-27 19:34:46:033 Script.cpp(175) Cannot create anonymous function
+W 2017-12-27 19:34:46:033 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+I 2017-12-27 19:34:46:290 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:34:47:342 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:34:49:649 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:34:50:463 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:34:51:024 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:34:51:524 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:34:51:990 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:34:52:477 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:34:53:056 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:34:53:640 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:34:54:158 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:34:54:722 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:34:55:344 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:34:56:091 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:34:56:885 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:34:57:821 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:34:58:830 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:34:59:442 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:00:251 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:01:207 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:01:840 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:03:460 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:05:147 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:06:377 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:07:267 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:08:099 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:08:954 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:09:587 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:10:181 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:10:860 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:11:856 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:12:538 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:13:437 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:14:340 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:15:340 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:16:374 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:17:502 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:18:347 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:19:149 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:19:698 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:20:536 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:21:171 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:21:570 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:22:009 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:22:447 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:22:886 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:23:441 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:23:954 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:24:387 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:25:073 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:25:460 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:25:928 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:26:389 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:26:782 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:27:241 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:27:631 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:28:125 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:28:518 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:29:139 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:29:696 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:30:323 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:30:759 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:31:215 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:31:986 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:32:668 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:33:344 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:33:867 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:35:137 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:35:667 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:36:287 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:36:822 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:37:487 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:38:081 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:38:606 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:39:074 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:39:493 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:39:912 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:40:434 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:40:933 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:41:524 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:42:022 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:42:448 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-12-27 19:35:43:005 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-12-27 19:35:43:923 response.cc(77) Error response has status code 7 and message 'Unable to find element with xpath == //frame[@name='mainpanel']' message

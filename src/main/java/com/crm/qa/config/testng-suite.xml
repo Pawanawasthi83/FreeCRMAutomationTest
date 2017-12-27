@@ -7,7 +7,7 @@
 	</listeners>
 	<test name="Free CRM Test Suite">
 	
-		<parameter name="browser" value="FF"></parameter>
+		<parameter name="browser" value="IE"></parameter>
 		<classes>
 			<class name="com.crm.qa.testcases.LoginPageTest"></class>
 		</classes>

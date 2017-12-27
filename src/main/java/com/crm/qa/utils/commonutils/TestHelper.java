@@ -14,19 +14,16 @@ import com.crm.qa.base.TestBase;
 
 public class TestHelper extends TestBase{
 
-	public static long PAGE_LOAD_TIMEOUT=120;
-	public static long IMPLICIT_WAIT=60;
-	public static long EXPLICIT_WAIT=60;
+	
 	
 	public static void switchToFrame(WebElement frame){
-		WebDriverWait wait = new WebDriverWait(getDriver(), EXPLICIT_WAIT);
+		WebDriverWait wait = new WebDriverWait(getDriver(), TestConfig.EXPLICIT_WAIT);
 		wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(frame));
 		
 	}
 	
 	public static String takeScreenShot(String methodName){
-		String targetPath=System.getProperty("user.dir")
-				+File.separator+"screenshots"+File.separator+methodName+"_"+System.currentTimeMillis()+".jpg";
+		String targetPath=TestConfig.screenShotPath+methodName+"_"+System.currentTimeMillis()+".jpg";
 		TakesScreenshot ts = (TakesScreenshot)getDriver();
 		File srcfile = ts.getScreenshotAs(OutputType.FILE);
 		try {

@@ -7,6 +7,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.crm.qa.base.TestBase;
+import com.crm.qa.utils.commonutils.TestConfig;
 import com.crm.qa.utils.commonutils.TestHelper;
 
 public class LoginPage extends TestBase{
@@ -47,7 +48,7 @@ public class LoginPage extends TestBase{
 	public HomePage login(String usrname,String pwd){
 		userName.sendKeys(usrname);
 		password.sendKeys(pwd);
-		WebDriverWait wait= new WebDriverWait(getDriver(), TestHelper.EXPLICIT_WAIT);
+		WebDriverWait wait= new WebDriverWait(getDriver(), TestConfig.EXPLICIT_WAIT);
 		wait.until(ExpectedConditions.elementToBeClickable(loginBtn));
 		loginBtn.click();
 		return new HomePage();

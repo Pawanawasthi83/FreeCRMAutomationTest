@@ -8,6 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.crm.qa.base.TestBase;
+import com.crm.qa.utils.commonutils.TestConfig;
 import com.crm.qa.utils.commonutils.TestHelper;
 
 public class HomePage extends TestBase{
@@ -38,7 +39,7 @@ public class HomePage extends TestBase{
 	
 	public String getHomePageTitle(){
 		TestHelper.switchToFrame(iFrameMainPanel);
-		WebDriverWait wait = new WebDriverWait(getDriver(), TestHelper.EXPLICIT_WAIT);
+		WebDriverWait wait = new WebDriverWait(getDriver(), TestConfig.EXPLICIT_WAIT);
 		wait.until(ExpectedConditions.visibilityOf(contactsPageLink));
 		return getDriver().getTitle();
 	}
@@ -70,7 +71,7 @@ public class HomePage extends TestBase{
 	public void clickOnNewContactLink(){
 		
 		Actions action = new Actions(getDriver());
-		WebDriverWait wait = new WebDriverWait(getDriver(), TestHelper.EXPLICIT_WAIT);
+		WebDriverWait wait = new WebDriverWait(getDriver(), TestConfig.EXPLICIT_WAIT);
 		wait.until(ExpectedConditions.elementToBeClickable(dealsPageLink));
 		action.moveToElement(dealsPageLink).build().perform();
 		action.moveToElement(contactsPageLink).build().perform();

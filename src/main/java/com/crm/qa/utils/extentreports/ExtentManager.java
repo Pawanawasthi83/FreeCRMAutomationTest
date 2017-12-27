@@ -2,6 +2,7 @@ package com.crm.qa.utils.extentreports;
 
 import java.io.File;
 
+import com.crm.qa.utils.commonutils.TestConfig;
 import com.relevantcodes.extentreports.ExtentReports;
 
 public class ExtentManager {
@@ -9,15 +10,11 @@ public class ExtentManager {
 	private static ExtentReports extent;
 
 	public synchronized static ExtentReports getreport() {
-		if(extent == null){
-		String filePath = System.getProperty("user.dir") + File.separator + "ExtentReports" + File.separator
-				+ "ExtentReportsResults.html";
-		extent = new ExtentReports(filePath, true);
-		String configfilepath = System.getProperty("user.dir") + File.separator + "src" + File.separator + "main"
-				+ File.separator + "java" + File.separator + "com" + File.separator + "crm" + File.separator + "qa"
-				+ File.separator + "config" + File.separator + "extent-config.xml";
-		File configFile = new File(configfilepath);
-		extent.loadConfig(configFile);
+		if (extent == null) {
+
+			extent = new ExtentReports(TestConfig.extentReportPath, true);
+			extent.loadConfig(new File(TestConfig.extentReportConfigPath));
+
 		}
 		return extent;
 

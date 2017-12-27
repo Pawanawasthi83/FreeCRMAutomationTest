@@ -1,501 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="6" failed="3" ignored="0" total="15" passed="6">
+<testng-results skipped="3" failed="0" ignored="0" total="3" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Free CRM Test Automation Suite" duration-ms="383395" started-at="2017-12-25T08:42:06Z" finished-at="2017-12-25T08:48:29Z">
+  <suite name="Free CRM Test Automation Suite" duration-ms="26165" started-at="2017-12-27T13:53:00Z" finished-at="2017-12-27T13:53:27Z">
     <groups>
     </groups>
-    <test name="Free CRM Test Suite for Fire fox Browser" duration-ms="58820" started-at="2017-12-25T08:42:06Z" finished-at="2017-12-25T08:43:05Z">
+    <test name="Free CRM Test Suite" duration-ms="26165" started-at="2017-12-27T13:53:00Z" finished-at="2017-12-27T13:53:27Z">
       <class name="com.crm.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@685cb137]" name="setup" is-config="true" duration-ms="19806" started-at="2017-12-25T14:12:06Z" finished-at="2017-12-25T14:12:26Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[FF]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@685cb137]" name="setup" is-config="true" duration-ms="20641" started-at="2017-12-25T14:12:26Z" finished-at="2017-12-25T14:12:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[FF]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="testLoginPageTitleText()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@685cb137]" name="testLoginPageTitleText" duration-ms="2651" started-at="2017-12-25T14:12:46Z" finished-at="2017-12-25T14:12:49Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [#1 Free CRM for Any Business: Online Customer Relationship Software1] but found [#1 Free CRM for Any Business: Online Customer Relationship Software]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [#1 Free CRM for Any Business: Online Customer Relationship Software1] but found [#1 Free CRM for Any Business: Online Customer Relationship Software]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
-	at org.testng.Assert.assertEquals(Assert.java:115)
-	at org.testng.Assert.assertEquals(Assert.java:189)
-	at org.testng.Assert.assertEquals(Assert.java:199)
-	at com.crm.qa.testcases.LoginPageTest.testLoginPageTitleText(LoginPageTest.java:33)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginPageTitleText -->
-        <test-method status="FAIL" signature="teardown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@685cb137]" name="teardown" is-config="true" duration-ms="15456" started-at="2017-12-25T14:12:49Z" finished-at="2017-12-25T14:13:05Z">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[Process refused to die after 10 seconds, and couldn't taskkill it: Timeout waiting for process to die]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: Process refused to die after 10 seconds, and couldn't taskkill it: Timeout waiting for process to die
-	at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:143)
-	at org.openqa.selenium.os.ProcessUtils.killProcess(ProcessUtils.java:81)
-	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.destroyHarder(UnixProcess.java:247)
-	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.access$200(UnixProcess.java:201)
-	at org.openqa.selenium.os.UnixProcess.destroy(UnixProcess.java:125)
-	at org.openqa.selenium.os.CommandLine.destroy(CommandLine.java:155)
-	at org.openqa.selenium.firefox.FirefoxBinary.quit(FirefoxBinary.java:246)
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.quit(NewProfileExtensionConnection.java:194)
-	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.quit(FirefoxDriver.java:364)
-	at org.openqa.selenium.firefox.FirefoxDriver.stopClient(FirefoxDriver.java:310)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:529)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
-	at com.sun.proxy.$Proxy9.quit(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:202)
-	at com.crm.qa.testcases.LoginPageTest.teardown(LoginPageTest.java:48)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:723)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-Caused by: org.openqa.selenium.os.ProcessUtils$ProcessStillAliveException: Timeout waiting for process to die
-	at org.openqa.selenium.os.ProcessUtils.waitForProcessDeath(ProcessUtils.java:67)
-	at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:139)
-	... 33 more
-Caused by: java.lang.InterruptedException
-	at java.lang.ProcessImpl.waitFor(ProcessImpl.java:451)
-	at org.openqa.selenium.os.ProcessUtils$ProcessWaiter.run(ProcessUtils.java:164)
-	... 1 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="SKIP" signature="setup(java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@685cb137]" name="setup" is-config="true" duration-ms="0" started-at="2017-12-25T14:13:05Z" finished-at="2017-12-25T14:13:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="testLoginPageTitleText()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@685cb137]" name="testLoginPageTitleText" duration-ms="0" started-at="2017-12-25T14:13:05Z" finished-at="2017-12-25T14:13:05Z">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[Process refused to die after 10 seconds, and couldn't taskkill it: Timeout waiting for process to die]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: Process refused to die after 10 seconds, and couldn't taskkill it: Timeout waiting for process to die
-	at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:143)
-	at org.openqa.selenium.os.ProcessUtils.killProcess(ProcessUtils.java:81)
-	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.destroyHarder(UnixProcess.java:247)
-	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.access$200(UnixProcess.java:201)
-	at org.openqa.selenium.os.UnixProcess.destroy(UnixProcess.java:125)
-	at org.openqa.selenium.os.CommandLine.destroy(CommandLine.java:155)
-	at org.openqa.selenium.firefox.FirefoxBinary.quit(FirefoxBinary.java:246)
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.quit(NewProfileExtensionConnection.java:194)
-	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.quit(FirefoxDriver.java:364)
-	at org.openqa.selenium.firefox.FirefoxDriver.stopClient(FirefoxDriver.java:310)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:529)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
-	at com.sun.proxy.$Proxy9.quit(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:202)
-	at com.crm.qa.testcases.LoginPageTest.teardown(LoginPageTest.java:48)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:723)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-Caused by: org.openqa.selenium.os.ProcessUtils$ProcessStillAliveException: Timeout waiting for process to die
-	at org.openqa.selenium.os.ProcessUtils.waitForProcessDeath(ProcessUtils.java:67)
-	at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:139)
-	... 33 more
-Caused by: java.lang.InterruptedException
-	at java.lang.ProcessImpl.waitFor(ProcessImpl.java:451)
-	at org.openqa.selenium.os.ProcessUtils$ProcessWaiter.run(ProcessUtils.java:164)
-	... 1 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginPageTitleText -->
-        <test-method status="SKIP" signature="setup(java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@685cb137]" name="setup" is-config="true" duration-ms="0" started-at="2017-12-25T14:13:05Z" finished-at="2017-12-25T14:13:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="testCRMLogoImage()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@685cb137]" name="testCRMLogoImage" duration-ms="0" started-at="2017-12-25T14:13:05Z" finished-at="2017-12-25T14:13:05Z">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[Process refused to die after 10 seconds, and couldn't taskkill it: Timeout waiting for process to die]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: Process refused to die after 10 seconds, and couldn't taskkill it: Timeout waiting for process to die
-	at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:143)
-	at org.openqa.selenium.os.ProcessUtils.killProcess(ProcessUtils.java:81)
-	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.destroyHarder(UnixProcess.java:247)
-	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.access$200(UnixProcess.java:201)
-	at org.openqa.selenium.os.UnixProcess.destroy(UnixProcess.java:125)
-	at org.openqa.selenium.os.CommandLine.destroy(CommandLine.java:155)
-	at org.openqa.selenium.firefox.FirefoxBinary.quit(FirefoxBinary.java:246)
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.quit(NewProfileExtensionConnection.java:194)
-	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.quit(FirefoxDriver.java:364)
-	at org.openqa.selenium.firefox.FirefoxDriver.stopClient(FirefoxDriver.java:310)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:529)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
-	at com.sun.proxy.$Proxy9.quit(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:202)
-	at com.crm.qa.testcases.LoginPageTest.teardown(LoginPageTest.java:48)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:723)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-Caused by: org.openqa.selenium.os.ProcessUtils$ProcessStillAliveException: Timeout waiting for process to die
-	at org.openqa.selenium.os.ProcessUtils.waitForProcessDeath(ProcessUtils.java:67)
-	at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:139)
-	... 33 more
-Caused by: java.lang.InterruptedException
-	at java.lang.ProcessImpl.waitFor(ProcessImpl.java:451)
-	at org.openqa.selenium.os.ProcessUtils$ProcessWaiter.run(ProcessUtils.java:164)
-	... 1 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCRMLogoImage -->
-        <test-method status="SKIP" signature="setup(java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@685cb137]" name="setup" is-config="true" duration-ms="0" started-at="2017-12-25T14:13:05Z" finished-at="2017-12-25T14:13:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="testLogin()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@685cb137]" name="testLogin" duration-ms="0" started-at="2017-12-25T14:13:05Z" finished-at="2017-12-25T14:13:05Z">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[Process refused to die after 10 seconds, and couldn't taskkill it: Timeout waiting for process to die]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: Process refused to die after 10 seconds, and couldn't taskkill it: Timeout waiting for process to die
-	at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:143)
-	at org.openqa.selenium.os.ProcessUtils.killProcess(ProcessUtils.java:81)
-	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.destroyHarder(UnixProcess.java:247)
-	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.access$200(UnixProcess.java:201)
-	at org.openqa.selenium.os.UnixProcess.destroy(UnixProcess.java:125)
-	at org.openqa.selenium.os.CommandLine.destroy(CommandLine.java:155)
-	at org.openqa.selenium.firefox.FirefoxBinary.quit(FirefoxBinary.java:246)
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.quit(NewProfileExtensionConnection.java:194)
-	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.quit(FirefoxDriver.java:364)
-	at org.openqa.selenium.firefox.FirefoxDriver.stopClient(FirefoxDriver.java:310)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:529)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
-	at com.sun.proxy.$Proxy9.quit(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:202)
-	at com.crm.qa.testcases.LoginPageTest.teardown(LoginPageTest.java:48)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:723)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-Caused by: org.openqa.selenium.os.ProcessUtils$ProcessStillAliveException: Timeout waiting for process to die
-	at org.openqa.selenium.os.ProcessUtils.waitForProcessDeath(ProcessUtils.java:67)
-	at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:139)
-	... 33 more
-Caused by: java.lang.InterruptedException
-	at java.lang.ProcessImpl.waitFor(ProcessImpl.java:451)
-	at org.openqa.selenium.os.ProcessUtils$ProcessWaiter.run(ProcessUtils.java:164)
-	... 1 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
-    </test> <!-- Free CRM Test Suite for Fire fox Browser -->
-    <test name="Free CRM Test Suite for Chrome Browser" duration-ms="119663" started-at="2017-12-25T08:43:06Z" finished-at="2017-12-25T08:45:06Z">
-      <class name="com.crm.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@14bf9759]" name="setup" is-config="true" duration-ms="26194" started-at="2017-12-25T14:13:06Z" finished-at="2017-12-25T14:13:32Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@14bf9759]" name="setup" is-config="true" duration-ms="15391" started-at="2017-12-25T14:13:32Z" finished-at="2017-12-25T14:13:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="testLoginPageTitleText()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@14bf9759]" name="testLoginPageTitleText" duration-ms="59" started-at="2017-12-25T14:13:48Z" finished-at="2017-12-25T14:13:48Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [#1 Free CRM for Any Business: Online Customer Relationship Software1] but found [#1 Free CRM for Any Business: Online Customer Relationship Software]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [#1 Free CRM for Any Business: Online Customer Relationship Software1] but found [#1 Free CRM for Any Business: Online Customer Relationship Software]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
-	at org.testng.Assert.assertEquals(Assert.java:115)
-	at org.testng.Assert.assertEquals(Assert.java:189)
-	at org.testng.Assert.assertEquals(Assert.java:199)
-	at com.crm.qa.testcases.LoginPageTest.testLoginPageTitleText(LoginPageTest.java:33)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginPageTitleText -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@14bf9759]" name="teardown" is-config="true" duration-ms="1276" started-at="2017-12-25T14:13:48Z" finished-at="2017-12-25T14:13:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@14bf9759]" name="setup" is-config="true" duration-ms="12816" started-at="2017-12-25T14:13:49Z" finished-at="2017-12-25T14:14:02Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="testLoginPageTitleText()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@14bf9759]" name="testLoginPageTitleText" duration-ms="40" started-at="2017-12-25T14:14:02Z" finished-at="2017-12-25T14:14:02Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [#1 Free CRM for Any Business: Online Customer Relationship Software1] but found [#1 Free CRM for Any Business: Online Customer Relationship Software]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [#1 Free CRM for Any Business: Online Customer Relationship Software1] but found [#1 Free CRM for Any Business: Online Customer Relationship Software]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
-	at org.testng.Assert.assertEquals(Assert.java:115)
-	at org.testng.Assert.assertEquals(Assert.java:189)
-	at org.testng.Assert.assertEquals(Assert.java:199)
-	at com.crm.qa.testcases.LoginPageTest.testLoginPageTitleText(LoginPageTest.java:33)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.retryFailed(Invoker.java:1014)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1215)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginPageTitleText -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@14bf9759]" name="teardown" is-config="true" duration-ms="1107" started-at="2017-12-25T14:14:02Z" finished-at="2017-12-25T14:14:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@14bf9759]" name="setup" is-config="true" duration-ms="13878" started-at="2017-12-25T14:14:03Z" finished-at="2017-12-25T14:14:17Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="testLoginPageTitleText()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@14bf9759]" name="testLoginPageTitleText" duration-ms="56" started-at="2017-12-25T14:14:17Z" finished-at="2017-12-25T14:14:17Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [#1 Free CRM for Any Business: Online Customer Relationship Software1] but found [#1 Free CRM for Any Business: Online Customer Relationship Software]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [#1 Free CRM for Any Business: Online Customer Relationship Software1] but found [#1 Free CRM for Any Business: Online Customer Relationship Software]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
-	at org.testng.Assert.assertEquals(Assert.java:115)
-	at org.testng.Assert.assertEquals(Assert.java:189)
-	at org.testng.Assert.assertEquals(Assert.java:199)
-	at com.crm.qa.testcases.LoginPageTest.testLoginPageTitleText(LoginPageTest.java:33)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.retryFailed(Invoker.java:1014)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1215)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginPageTitleText -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@14bf9759]" name="teardown" is-config="true" duration-ms="1130" started-at="2017-12-25T14:14:17Z" finished-at="2017-12-25T14:14:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@14bf9759]" name="setup" is-config="true" duration-ms="15929" started-at="2017-12-25T14:14:18Z" finished-at="2017-12-25T14:14:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testCRMLogoImage()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@14bf9759]" name="testCRMLogoImage" duration-ms="119" started-at="2017-12-25T14:14:34Z" finished-at="2017-12-25T14:14:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCRMLogoImage -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@14bf9759]" name="teardown" is-config="true" duration-ms="1005" started-at="2017-12-25T14:14:34Z" finished-at="2017-12-25T14:14:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@14bf9759]" name="setup" is-config="true" duration-ms="13127" started-at="2017-12-25T14:14:35Z" finished-at="2017-12-25T14:14:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testLogin()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@14bf9759]" name="testLogin" duration-ms="15910" started-at="2017-12-25T14:14:49Z" finished-at="2017-12-25T14:15:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@14bf9759]" name="teardown" is-config="true" duration-ms="1114" started-at="2017-12-25T14:15:04Z" finished-at="2017-12-25T14:15:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
-    </test> <!-- Free CRM Test Suite for Chrome Browser -->
-    <test name="Free CRM Test Suite For IE Browser" duration-ms="84031" started-at="2017-12-25T08:45:06Z" finished-at="2017-12-25T08:46:30Z">
-      <class name="com.crm.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6500df86]" name="setup" is-config="true" duration-ms="21626" started-at="2017-12-25T14:15:06Z" finished-at="2017-12-25T14:15:27Z">
+        <test-method status="FAIL" signature="setup(java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@5c3bd550]" name="setup" is-config="true" duration-ms="25051" started-at="2017-12-27T19:23:00Z" finished-at="2017-12-27T19:23:26Z">
           <params>
             <param index="0">
               <value>
@@ -503,197 +15,278 @@ Caused by: java.lang.InterruptedException
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6500df86]" name="setup" is-config="true" duration-ms="11683" started-at="2017-12-25T14:15:27Z" finished-at="2017-12-25T14:15:39Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[IE]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="testLoginPageTitleText()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@6500df86]" name="testLoginPageTitleText" duration-ms="76" started-at="2017-12-25T14:15:39Z" finished-at="2017-12-25T14:15:39Z">
-          <exception class="java.lang.AssertionError">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[expected [#1 Free CRM for Any Business: Online Customer Relationship Software1] but found [#1 Free CRM for Any Business: Online Customer Relationship Software]]]>
+              <![CDATA[Failed to navigate to https://www.freecrm.com/index.html. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 21 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'WIN-NMJ1FQIGA39', ip: '192.168.65.128', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_122-ea'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=5000, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=true, ie.fileUploadDialogTimeout=3000, version=10, platform=WINDOWS, proxy={proxyType=}, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:4953/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=ignore}]
+Session ID: d1c5bf02-0cf9-4f6e-829b-ca5ac77c9eb6]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [#1 Free CRM for Any Business: Online Customer Relationship Software1] but found [#1 Free CRM for Any Business: Online Customer Relationship Software]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
-	at org.testng.Assert.assertEquals(Assert.java:115)
-	at org.testng.Assert.assertEquals(Assert.java:189)
-	at org.testng.Assert.assertEquals(Assert.java:199)
-	at com.crm.qa.testcases.LoginPageTest.testLoginPageTitleText(LoginPageTest.java:33)
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to navigate to https://www.freecrm.com/index.html. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 21 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'WIN-NMJ1FQIGA39', ip: '192.168.65.128', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_122-ea'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=5000, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=true, ie.fileUploadDialogTimeout=3000, version=10, platform=WINDOWS, proxy={proxyType=}, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:4953/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=ignore}]
+Session ID: d1c5bf02-0cf9-4f6e-829b-ca5ac77c9eb6
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy9.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:163)
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:75)
+	at com.crm.qa.testcases.LoginPageTest.setup(LoginPageTest.java:27)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginPageTitleText -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6500df86]" name="teardown" is-config="true" duration-ms="1107" started-at="2017-12-25T14:15:43Z" finished-at="2017-12-25T14:15:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6500df86]" name="setup" is-config="true" duration-ms="9530" started-at="2017-12-25T14:15:44Z" finished-at="2017-12-25T14:15:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[IE]]>
-              </value>
-            </param>
-          </params>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testCRMLogoImage()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@6500df86]" name="testCRMLogoImage" duration-ms="729" started-at="2017-12-25T14:15:53Z" finished-at="2017-12-25T14:15:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCRMLogoImage -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6500df86]" name="teardown" is-config="true" duration-ms="906" started-at="2017-12-25T14:15:54Z" finished-at="2017-12-25T14:15:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6500df86]" name="setup" is-config="true" duration-ms="6708" started-at="2017-12-25T14:15:55Z" finished-at="2017-12-25T14:16:02Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[IE]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="SKIP" signature="setup(java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@5c3bd550]" name="setup" is-config="true" duration-ms="0" started-at="2017-12-27T19:23:26Z" finished-at="2017-12-27T19:23:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testLogin()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@6500df86]" name="testLogin" duration-ms="27161" started-at="2017-12-25T14:16:02Z" finished-at="2017-12-25T14:16:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6500df86]" name="teardown" is-config="true" duration-ms="855" started-at="2017-12-25T14:16:29Z" finished-at="2017-12-25T14:16:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
-    </test> <!-- Free CRM Test Suite For IE Browser -->
-    <test name="Free CRM Test Suite For opera Browser" duration-ms="119137" started-at="2017-12-25T08:46:30Z" finished-at="2017-12-25T08:48:29Z">
-      <class name="com.crm.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@7085bdee]" name="setup" is-config="true" duration-ms="22297" started-at="2017-12-25T14:16:30Z" finished-at="2017-12-25T14:16:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[opera]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@7085bdee]" name="setup" is-config="true" duration-ms="24244" started-at="2017-12-25T14:16:53Z" finished-at="2017-12-25T14:17:17Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[opera]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="testLoginPageTitleText()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@7085bdee]" name="testLoginPageTitleText" duration-ms="279" started-at="2017-12-25T14:17:17Z" finished-at="2017-12-25T14:17:17Z">
-          <exception class="java.lang.AssertionError">
+        <test-method status="SKIP" signature="testLoginPageTitleText()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@5c3bd550]" name="testLoginPageTitleText" duration-ms="0" started-at="2017-12-27T19:23:26Z" finished-at="2017-12-27T19:23:26Z">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[expected [#1 Free CRM for Any Business: Online Customer Relationship Software1] but found [#1 Free CRM for Any Business: Online Customer Relationship Software]]]>
+              <![CDATA[Failed to navigate to https://www.freecrm.com/index.html. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 21 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'WIN-NMJ1FQIGA39', ip: '192.168.65.128', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_122-ea'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=5000, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=true, ie.fileUploadDialogTimeout=3000, version=10, platform=WINDOWS, proxy={proxyType=}, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:4953/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=ignore}]
+Session ID: d1c5bf02-0cf9-4f6e-829b-ca5ac77c9eb6]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [#1 Free CRM for Any Business: Online Customer Relationship Software1] but found [#1 Free CRM for Any Business: Online Customer Relationship Software]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
-	at org.testng.Assert.assertEquals(Assert.java:115)
-	at org.testng.Assert.assertEquals(Assert.java:189)
-	at org.testng.Assert.assertEquals(Assert.java:199)
-	at com.crm.qa.testcases.LoginPageTest.testLoginPageTitleText(LoginPageTest.java:33)
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to navigate to https://www.freecrm.com/index.html. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 21 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'WIN-NMJ1FQIGA39', ip: '192.168.65.128', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_122-ea'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=5000, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=true, ie.fileUploadDialogTimeout=3000, version=10, platform=WINDOWS, proxy={proxyType=}, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:4953/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=ignore}]
+Session ID: d1c5bf02-0cf9-4f6e-829b-ca5ac77c9eb6
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy9.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:163)
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:75)
+	at com.crm.qa.testcases.LoginPageTest.setup(LoginPageTest.java:27)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginPageTitleText -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@7085bdee]" name="teardown" is-config="true" duration-ms="2266" started-at="2017-12-25T14:17:18Z" finished-at="2017-12-25T14:17:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@7085bdee]" name="setup" is-config="true" duration-ms="17546" started-at="2017-12-25T14:17:21Z" finished-at="2017-12-25T14:17:38Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[opera]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="SKIP" signature="setup(java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@5c3bd550]" name="setup" is-config="true" duration-ms="0" started-at="2017-12-27T19:23:26Z" finished-at="2017-12-27T19:23:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testCRMLogoImage()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@7085bdee]" name="testCRMLogoImage" duration-ms="1208" started-at="2017-12-25T14:17:38Z" finished-at="2017-12-25T14:17:39Z">
+        <test-method status="SKIP" signature="testCRMLogoImage()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@5c3bd550]" name="testCRMLogoImage" duration-ms="0" started-at="2017-12-27T19:23:26Z" finished-at="2017-12-27T19:23:26Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to navigate to https://www.freecrm.com/index.html. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 21 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'WIN-NMJ1FQIGA39', ip: '192.168.65.128', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_122-ea'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=5000, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=true, ie.fileUploadDialogTimeout=3000, version=10, platform=WINDOWS, proxy={proxyType=}, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:4953/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=ignore}]
+Session ID: d1c5bf02-0cf9-4f6e-829b-ca5ac77c9eb6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to navigate to https://www.freecrm.com/index.html. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 21 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'WIN-NMJ1FQIGA39', ip: '192.168.65.128', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_122-ea'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=5000, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=true, ie.fileUploadDialogTimeout=3000, version=10, platform=WINDOWS, proxy={proxyType=}, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:4953/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=ignore}]
+Session ID: d1c5bf02-0cf9-4f6e-829b-ca5ac77c9eb6
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy9.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:163)
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:75)
+	at com.crm.qa.testcases.LoginPageTest.setup(LoginPageTest.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCRMLogoImage -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@7085bdee]" name="teardown" is-config="true" duration-ms="1504" started-at="2017-12-25T14:17:39Z" finished-at="2017-12-25T14:17:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@7085bdee]" name="setup" is-config="true" duration-ms="16207" started-at="2017-12-25T14:17:41Z" finished-at="2017-12-25T14:17:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[opera]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="SKIP" signature="setup(java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@5c3bd550]" name="setup" is-config="true" duration-ms="0" started-at="2017-12-27T19:23:26Z" finished-at="2017-12-27T19:23:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testLogin()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@7085bdee]" name="testLogin" duration-ms="30680" started-at="2017-12-25T14:17:57Z" finished-at="2017-12-25T14:18:28Z">
+        <test-method status="SKIP" signature="testLogin()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@5c3bd550]" name="testLogin" duration-ms="0" started-at="2017-12-27T19:23:26Z" finished-at="2017-12-27T19:23:26Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to navigate to https://www.freecrm.com/index.html. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 21 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'WIN-NMJ1FQIGA39', ip: '192.168.65.128', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_122-ea'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=5000, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=true, ie.fileUploadDialogTimeout=3000, version=10, platform=WINDOWS, proxy={proxyType=}, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:4953/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=ignore}]
+Session ID: d1c5bf02-0cf9-4f6e-829b-ca5ac77c9eb6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to navigate to https://www.freecrm.com/index.html. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 21 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'WIN-NMJ1FQIGA39', ip: '192.168.65.128', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_122-ea'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=5000, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=true, ie.fileUploadDialogTimeout=3000, version=10, platform=WINDOWS, proxy={proxyType=}, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=true, browserName=internet explorer, initialBrowserUrl=http://localhost:4953/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=ignore}]
+Session ID: d1c5bf02-0cf9-4f6e-829b-ca5ac77c9eb6
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy9.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:163)
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:75)
+	at com.crm.qa.testcases.LoginPageTest.setup(LoginPageTest.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@7085bdee]" name="teardown" is-config="true" duration-ms="1555" started-at="2017-12-25T14:18:28Z" finished-at="2017-12-25T14:18:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
       </class> <!-- com.crm.qa.testcases.LoginPageTest -->
-    </test> <!-- Free CRM Test Suite For opera Browser -->
+    </test> <!-- Free CRM Test Suite -->
   </suite> <!-- Free CRM Test Automation Suite -->
 </testng-results>

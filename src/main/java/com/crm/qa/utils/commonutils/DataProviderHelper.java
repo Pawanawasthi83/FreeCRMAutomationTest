@@ -7,16 +7,11 @@ import org.testng.annotations.DataProvider;
 
 public class DataProviderHelper {
 
-	String filepath;
-		
+	
 	@DataProvider(name="newcontact",parallel=false)
 	public Object[][] getUserLoginData() throws IOException{
 		String datasheet="NewContact";
-		filepath = System.getProperty("user.dir")+File.separator+"src"+File.separator+"main"
-				+File.separator+"java"+File.separator+"com"+File.separator+"crm"+File.separator+"qa"+File.separator+"testdata"
-				+File.separator+"TestData_Sheet.xlsx";
-		
-		ExcelHelper reader = new ExcelHelper(filepath);
+		ExcelHelper reader = new ExcelHelper(TestConfig.testDataFile);
 		int row = reader.getRowCount(datasheet.toString());
 		int col = reader.getColumnCount(datasheet.toString());
 		
