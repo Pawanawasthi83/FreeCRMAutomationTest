@@ -5,7 +5,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import com.crm.qa.base.TestBase;
-import com.crm.qa.utils.commonutils.TestHelper;
 
 public class WebDriverEventListener extends TestBase implements org.openqa.selenium.support.events.WebDriverEventListener {
 
@@ -55,7 +54,8 @@ public class WebDriverEventListener extends TestBase implements org.openqa.selen
 	}
 
 	public void beforeClickOn(WebElement element, WebDriver driver) {
-		System.out.println("Clicking on the Web Element : "+element.toString());
+		log.debug("Clicking on the Web Element : "+element.toString());
+		
 		
 	}
 
@@ -80,7 +80,8 @@ public class WebDriverEventListener extends TestBase implements org.openqa.selen
 	}
 
 	public void beforeNavigateTo(String url, WebDriver driver) {
-		System.out.println("Navigating To URL : "+url);
+		log.debug("Navigating To URL : "+url);
+		System.out.println();
 		
 	}
 

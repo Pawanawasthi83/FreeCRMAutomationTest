@@ -24,6 +24,7 @@ public class LoginPageTest extends TestBase {
 	
 	@BeforeMethod
 	public void setup(String browser ){
+		log.debug("In side Setup");
 		initialization(browser);
 		loginPageObj = new LoginPage();
 	}
