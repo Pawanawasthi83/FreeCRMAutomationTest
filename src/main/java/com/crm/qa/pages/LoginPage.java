@@ -31,13 +31,13 @@ public class LoginPage extends TestBase{
 	//Initializing the Page Objects:
 	
 	public LoginPage(){
-		PageFactory.initElements(getDriver(), this);
+		PageFactory.initElements(driver, this);
 	}
 	
 	//Actions :
 	
 	public String getLoginPageTitle(){
-		return getDriver().getTitle();
+		return driver.getTitle();
 	}
 	
 	public boolean validateCrmLogo(){
@@ -48,8 +48,8 @@ public class LoginPage extends TestBase{
 		log.debug("Inside Login Method");
 		userName.sendKeys(usrname);
 		password.sendKeys(pwd);
-		WebDriverWait wait= new WebDriverWait(getDriver(), TestConfig.EXPLICIT_WAIT);
-		wait.until(ExpectedConditions.elementToBeClickable(loginBtn));
+		//WebDriverWait wait= new WebDriverWait(getDriver(), TestConfig.EXPLICIT_WAIT);
+		waitDriver.until(ExpectedConditions.elementToBeClickable(loginBtn));
 		loginBtn.click();
 		return new HomePage();
 	}

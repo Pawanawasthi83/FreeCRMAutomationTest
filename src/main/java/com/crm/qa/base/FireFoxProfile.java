@@ -6,9 +6,9 @@ import com.crm.qa.utils.commonutils.TestConfig;
 
 public class FireFoxProfile {
 
-	private FirefoxProfile profile;
+	private static FirefoxProfile profile;
 	
-	public FirefoxProfile fireFoxProfile(){
+	public static FirefoxProfile fireFoxProfile(){
 		profile=new FirefoxProfile();
 		profile.setPreference("browser.download.folderList", 2);
 		profile.setPreference("browser.download.panel.shown", false);

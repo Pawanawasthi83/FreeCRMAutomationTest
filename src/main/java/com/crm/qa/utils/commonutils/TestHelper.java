@@ -17,8 +17,9 @@ public class TestHelper extends TestBase{
 	
 	
 	public static void switchToFrame(WebElement frame){
-		WebDriverWait wait = new WebDriverWait(getDriver(), TestConfig.EXPLICIT_WAIT);
-		wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(frame));
+		//WebDriverWait wait = new WebDriverWait(driver, TestConfig.EXPLICIT_WAIT);
+		waitDriver.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(frame));
+		
 		
 	}
 	

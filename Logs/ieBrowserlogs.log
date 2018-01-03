@@ -1,4 +1,4 @@
-I 2017-12-29 14:44:10:071 server.cc(86) Starting WebDriver server on port: '46008' on host: ''
-I 2017-12-29 14:44:10:071 IEServer.cpp(32) Driver version: 2.53.0.0 (32-bit)
-I 2017-12-29 14:44:15:219 IECommandExecutor.cpp(678) Persistent hovering set to: 0
-I 2017-12-29 14:44:15:219 IECommandExecutor.cpp(680) Stopping previously-running persistent event thread.
+I 2018-01-03 13:03:07:784 server.cc(86) Starting WebDriver server on port: '42940' on host: ''
+I 2018-01-03 13:03:07:785 IEServer.cpp(32) Driver version: 2.53.0.0 (32-bit)
+I 2018-01-03 13:03:15:667 IECommandExecutor.cpp(678) Persistent hovering set to: 0
+I 2018-01-03 13:03:15:668 IECommandExecutor.cpp(680) Stopping previously-running persistent event thread.

@@ -38,4 +38,6 @@ public class TestConfig {
 	public static String extentReportConfigPath = System.getProperty("user.dir") + File.separator + "src" + File.separator + "main"
 			+ File.separator + "java" + File.separator + "com" + File.separator + "crm" + File.separator + "qa"
 			+ File.separator + "config" + File.separator + "extent-config.xml";
+	public static String phantomJSPath = System.getProperty("user.dir") + File.separator + "src" + File.separator
+			+ "main" + File.separator + "resources" + File.separator + "Drivers" + File.separator + "phantomjs.exe";
 }

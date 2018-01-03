@@ -20,7 +20,7 @@
 				<version>2.12.4</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>src\main\java\com\crm\qa\config\testngMultiBrowser.xml</suiteXmlFile>
+						<suiteXmlFile>src\main\java\com\crm\qa\config\testng-suite.xml</suiteXmlFile>
 					</suiteXmlFiles>
 
 				</configuration>
@@ -85,11 +85,13 @@
 			<artifactId>extentreports</artifactId>
 			<version>2.41.2</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.github.detro.ghostdriver/phantomjsdriver -->
+		<dependency>
+			<groupId>com.github.detro.ghostdriver</groupId>
+			<artifactId>phantomjsdriver</artifactId>
+			<version>1.1.0</version>
+		</dependency>
 		
-
-
-
-
 
 
 	</dependencies>

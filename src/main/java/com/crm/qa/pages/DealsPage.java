@@ -7,7 +7,7 @@ import com.crm.qa.base.TestBase;
 public class DealsPage extends TestBase {
 
 	public DealsPage() {
-		PageFactory.initElements(getDriver(), this);
+		PageFactory.initElements(driver, this);
 	}
 
 }

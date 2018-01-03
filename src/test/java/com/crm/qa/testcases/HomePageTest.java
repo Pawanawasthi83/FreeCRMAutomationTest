@@ -54,7 +54,8 @@ public class HomePageTest extends TestBase {
 	
 	@AfterMethod
 	public void teardown(){
-		getDriver().quit();
+		driver.close();
+		getDriver().remove();
 	}
 	
 }

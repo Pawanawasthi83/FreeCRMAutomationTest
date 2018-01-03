@@ -16,16 +16,19 @@ public class LoginPageTest extends TestBase {
 	LoginPage loginPageObj;
 	HomePage homePageObj;
 	
+		
 	public LoginPageTest() {
 		super();
 	}
+	
 	@BeforeTest
 	@Parameters("browser")
 	
 	@BeforeMethod
 	public void setup(String browser ){
-		log.debug("In side Setup");
+		log.debug("Before Method Starts ....");
 		initialization(browser);
+		
 		loginPageObj = new LoginPage();
 	}
 	@Test(priority=1)
@@ -46,7 +49,10 @@ public class LoginPageTest extends TestBase {
 	}
 	@AfterMethod
 	public void teardown(){
-		getDriver().quit();
+		driver.close();
+		getDriver().remove();
+		log.debug("After Methods ends ...");
+		
 	}
 	
 	

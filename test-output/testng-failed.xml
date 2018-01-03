@@ -6,7 +6,7 @@
     <listener class-name="com.crm.qa.utils.listeners.AnnotationTransformer"/>
   </listeners>
   <test name="Free CRM Test Suite(failed)">
-    <parameter name="browser" value="IE"/>
+    <parameter name="browser" value="phantom"/>
     <classes>
       <class name="com.crm.qa.testcases.LoginPageTest">
         <methods>

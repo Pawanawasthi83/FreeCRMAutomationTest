@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -13,16 +15,21 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.opera.OperaDriver;
+import org.openqa.selenium.phantomjs.PhantomJSDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
-
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.crm.qa.utils.commonutils.TestConfig;
 import com.crm.qa.utils.listeners.WebDriverEventListener;;
 
-public class TestBase extends DesiredCapabilitiesManager {
+public class TestBase{
 
-	private static ThreadLocal<WebDriver> driver = new ThreadLocal<WebDriver>();
+	public static  WebDriver driver;
+    public static WebDriverWait waitDriver;
+   	private static ThreadLocal<WebDriver> TLdriver = new ThreadLocal<WebDriver>();
+	
 	public static Properties prop;
 	FileInputStream fis;
 	public static Logger log = Logger.getLogger("devpinoyLogger");
@@ -47,39 +54,50 @@ public class TestBase extends DesiredCapabilitiesManager {
 		}
 	}
 
-	public static void initialization(String browserName) {
+	public void initialization(String browserName) {
+		log.debug("Envirnoment Initilization ......");
 		log.debug("Initializing Web Driver For Browser : "+browserName);
+		
 		if (browserName.equalsIgnoreCase("FF")) {
-			driver.set(new FirefoxDriver(firefoxDC()));
+			TLdriver.set(new FirefoxDriver(DesiredCapabilitiesManager.firefoxDC()));
 		} else if (browserName.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver", TestConfig.chromeDriverPath);
-			driver.set(new ChromeDriver(chromeDC()));
+			TLdriver.set(new ChromeDriver(DesiredCapabilitiesManager.chromeDC()));
 		} else if (browserName.equalsIgnoreCase("ie")) {
 			System.setProperty("webdriver.ie.driver", TestConfig.ieDriverPath);
-			driver.set(new InternetExplorerDriver(InterNetExplorerDC()));
+			TLdriver.set(new InternetExplorerDriver(DesiredCapabilitiesManager.InterNetExplorerDC()));
 		} else if (browserName.equalsIgnoreCase("safari")) {
-			driver.set(new SafariDriver());
+			TLdriver.set(new SafariDriver());
 		} else if (browserName.equalsIgnoreCase("opera")) {
 			System.setProperty("webdriver.opera.driver", TestConfig.operaDriverPath);
-			driver.set(new OperaDriver(operaDC()));
+			TLdriver.set(new OperaDriver(DesiredCapabilitiesManager.operaDC()));
+		} else if (browserName.equalsIgnoreCase("htmlUnitDriver")) {
+			//TLdriver.set(new HtmlUnitDriver(DesiredCapabilitiesManager.htmlUnitDriverDC()));
+		}else if (browserName.equalsIgnoreCase("phantom")) {
+			TLdriver.set(new PhantomJSDriver(DesiredCapabilitiesManager.phantomJSDC()));
 		} else {
 			log.debug(browserName+"Not Supported");
 		}
-
-		EventFiringWebDriver e_driver = new EventFiringWebDriver(getDriver());
+				
+		waitDriver = new WebDriverWait(TLdriver.get(), TestConfig.EXPLICIT_WAIT);
+		EventFiringWebDriver e_driver = new EventFiringWebDriver(TLdriver.get());
 		WebDriverEventListener listerner = new WebDriverEventListener();
 		log.debug("Registering the Event Firing Web Driver with the Listener ");
 		e_driver.register(listerner);
-		driver.set(e_driver);
+		TLdriver.set(e_driver);
 		// getDriver().manage().window().maximize();
-		getDriver().manage().timeouts().pageLoadTimeout(TestConfig.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
-		getDriver().manage().timeouts().implicitlyWait(TestConfig.IMPLICIT_WAIT, TimeUnit.SECONDS);
-		getDriver().get(prop.getProperty("URL"));
+		TLdriver.get().manage().timeouts().pageLoadTimeout(TestConfig.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
+		TLdriver.get().manage().timeouts().implicitlyWait(TestConfig.IMPLICIT_WAIT, TimeUnit.SECONDS);
+		log.debug("Envirnoment Initilization Finished ......");
+		driver=TLdriver.get();
+		log.debug("Launching Web URL");
+		driver.get(prop.getProperty("URL"));
 	}
 
-	public static WebDriver getDriver() {
+	public static ThreadLocal<WebDriver> getDriver() {
 		log.debug("Getting Web Driver Instance");
-		return driver.get();
+			return TLdriver;
+			
 	}
 	
 }

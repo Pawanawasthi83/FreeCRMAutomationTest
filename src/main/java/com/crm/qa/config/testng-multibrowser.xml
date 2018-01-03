@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Free CRM Test Automation Suite" parallel="true" thread-count="10">
+<suite name="Free CRM Test Automation Suite" parallel="true" thread-count="4">
 	<listeners>
 		<listener class-name="com.crm.qa.utils.listeners.ExtentITestListener"></listener>
 		<listener class-name="com.crm.qa.utils.listeners.AnnotationTransformer"></listener>

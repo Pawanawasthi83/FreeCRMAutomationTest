@@ -33,15 +33,14 @@ public class HomePage extends TestBase{
 	WebElement iFrameMainPanel;
 	
 	public HomePage(){
-		PageFactory.initElements(getDriver(), this);
+		PageFactory.initElements(driver, this);
 	}
 	
 	
 	public String getHomePageTitle(){
 		TestHelper.switchToFrame(iFrameMainPanel);
-		WebDriverWait wait = new WebDriverWait(getDriver(), TestConfig.EXPLICIT_WAIT);
-		wait.until(ExpectedConditions.visibilityOf(contactsPageLink));
-		return getDriver().getTitle();
+		waitDriver.until(ExpectedConditions.visibilityOf(contactsPageLink));
+		return driver.getTitle();
 	}
 	
 	public boolean verifyHomePageUserName(){
@@ -70,9 +69,9 @@ public class HomePage extends TestBase{
 		
 	public void clickOnNewContactLink(){
 		
-		Actions action = new Actions(getDriver());
-		WebDriverWait wait = new WebDriverWait(getDriver(), TestConfig.EXPLICIT_WAIT);
-		wait.until(ExpectedConditions.elementToBeClickable(dealsPageLink));
+		Actions action = new Actions(driver);
+		//WebDriverWait wait = new WebDriverWait(getDriver(), TestConfig.EXPLICIT_WAIT);
+		waitDriver.until(ExpectedConditions.elementToBeClickable(dealsPageLink));
 		action.moveToElement(dealsPageLink).build().perform();
 		action.moveToElement(contactsPageLink).build().perform();
 		newContactLink.click();
