@@ -1,6 +1,5 @@
 package com.crm.qa.utils.commonutils;
 
-import java.io.File;
 import java.io.IOException;
 
 import org.testng.annotations.DataProvider;
@@ -12,6 +11,7 @@ public class DataProviderHelper {
 	public Object[][] getUserLoginData() throws IOException{
 		String datasheet="NewContact";
 		ExcelHelper reader = new ExcelHelper(TestConfig.testDataFile);
+		
 		int row = reader.getRowCount(datasheet.toString());
 		int col = reader.getColumnCount(datasheet.toString());
 		

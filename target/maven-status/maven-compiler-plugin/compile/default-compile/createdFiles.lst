@@ -12,10 +12,10 @@ com\crm\qa\pages\DealsPage.class
 com\crm\qa\pages\TasksPage.class
 com\crm\qa\utils\listeners\AnnotationTransformer.class
 com\crm\qa\base\FireFoxProfile.class
-com\crm\qa\base\TestRemoteWebDriver.class
 com\crm\qa\utils\commonutils\DataProviderHelper.class
 com\crm\qa\utils\listeners\ExtentITestListener.class
 com\crm\qa\utils\listeners\Retry.class
 com\crm\qa\base\DesiredCapabilitiesManager.class
 com\crm\qa\utils\commonutils\TestConfig.class
+com\crm\qa\utils\commonutils\TestOP.class
 com\crm\qa\utils\listeners\ExtentIReporter.class

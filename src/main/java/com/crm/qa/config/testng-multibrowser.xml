@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Free CRM Test Automation Suite" parallel="true" thread-count="4">
+<suite name="Free CRM Test Automation Suite" parallel="false" thread-count="4">
 	<listeners>
 		<listener class-name="com.crm.qa.utils.listeners.ExtentITestListener"></listener>
 		<listener class-name="com.crm.qa.utils.listeners.AnnotationTransformer"></listener>
@@ -28,6 +28,13 @@
 	
 	<test name="Free CRM Test Suite For opera Browser">
 		<parameter name="browser" value="opera"></parameter>
+		<classes>
+			<class name="com.crm.qa.testcases.LoginPageTest"></class>
+
+		</classes>
+	</test>
+	<test name="Free CRM Test Suite For phantomJS Browser">
+		<parameter name="browser" value="phantom"></parameter>
 		<classes>
 			<class name="com.crm.qa.testcases.LoginPageTest"></class>
 

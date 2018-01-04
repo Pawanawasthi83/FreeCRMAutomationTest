@@ -11,6 +11,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
@@ -59,7 +60,8 @@ public class TestBase{
 		log.debug("Initializing Web Driver For Browser : "+browserName);
 		
 		if (browserName.equalsIgnoreCase("FF")) {
-			TLdriver.set(new FirefoxDriver(DesiredCapabilitiesManager.firefoxDC()));
+			log.debug("Inside FF Driver");
+			TLdriver.set(new FirefoxDriver(DesiredCapabilitiesManager.firefoxDC()));		
 		} else if (browserName.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver", TestConfig.chromeDriverPath);
 			TLdriver.set(new ChromeDriver(DesiredCapabilitiesManager.chromeDC()));

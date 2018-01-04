@@ -1,4 +1,4 @@
-[0.565][INFO]: COMMAND InitSession {
+[0.879][INFO]: COMMAND InitSession {
    "desiredCapabilities": {
       "acceptSslCerts": true,
       "browserName": "Opera",
@@ -12,7 +12,7 @@
       "version": ""
    }
 }
-[0.567][INFO]: Populating Preferences file: {
+[0.879][INFO]: Populating Preferences file: {
    "alternate_error_pages": {
       "enabled": false
    },
@@ -66,7 +66,7 @@
       "enabled": false
    }
 }
-[0.569][INFO]: Populating Local State file: {
+[0.898][INFO]: Populating Local State file: {
    "background_mode": {
       "enabled": false
    },
@@ -76,16 +76,16 @@
       }
    }
 }
-[0.593][INFO]: Launching Opera: "C:\Program Files\Opera\49.0.2725.47\opera.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-presto-profile-migration --disable-prompt-on-repost --disable-sync --disable-update --disable-usage-statistics-question --disable-web-resources --enable-automation --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-component-extension="C:\Users\parth.c\AppData\Local\Temp\scoped_dir14236_31077\internal" --log-level=0 --metrics-recording-only --no-default-browser-check --no-first-run --password-store=basic --ran-launcher --remote-debugging-port=12509 --safebrowsing-disable-auto-update --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\parth.c\AppData\Local\Temp\scoped_dir14236_28848" data:,
-[12.897][INFO]: resolved localhost to ["127.0.0.1"]
-[22.517][INFO]: RESPONSE InitSession {
+[1.277][INFO]: Launching Opera: "C:\Program Files\Opera\49.0.2725.47\opera.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-presto-profile-migration --disable-prompt-on-repost --disable-sync --disable-update --disable-usage-statistics-question --disable-web-resources --enable-automation --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-component-extension="C:\Users\parth.c\AppData\Local\Temp\scoped_dir15928_15678\internal" --log-level=0 --metrics-recording-only --no-default-browser-check --no-first-run --password-store=basic --ran-launcher --remote-debugging-port=12526 --safebrowsing-disable-auto-update --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\parth.c\AppData\Local\Temp\scoped_dir15928_20581" data:,
+[10.287][INFO]: resolved localhost to ["127.0.0.1"]
+[16.944][INFO]: RESPONSE InitSession {
    "acceptSslCerts": true,
    "applicationCacheEnabled": false,
    "browserConnectionEnabled": false,
    "browserName": "chrome",
    "chrome": {
       "chromedriverVersion": "2.30",
-      "userDataDir": "C:\\Users\\parth.c\\AppData\\Local\\Temp\\scoped_dir14236_28848"
+      "userDataDir": "C:\\Users\\parth.c\\AppData\\Local\\Temp\\scoped_dir15928_20581"
    },
    "cssSelectorsEnabled": true,
    "databaseEnabled": false,
@@ -103,22 +103,171 @@
    "takesHeapSnapshot": true,
    "~~~": "..."
 }
-[22.581][INFO]: COMMAND SetTimeout {
+[17.471][INFO]: COMMAND SetTimeout {
    "ms": 120000,
    "type": "page load"
 }
-[22.581][INFO]: RESPONSE SetTimeout
-[22.751][INFO]: COMMAND SetTimeout {
+[17.472][INFO]: RESPONSE SetTimeout
+[17.491][INFO]: COMMAND SetTimeout {
    "ms": 60000,
    "type": "implicit"
 }
-[22.751][INFO]: RESPONSE SetTimeout
-[22.867][INFO]: COMMAND Navigate {
+[17.491][INFO]: RESPONSE SetTimeout
+[17.546][INFO]: COMMAND Navigate {
    "url": "https://www.freecrm.com/index.html"
 }
-[22.867][INFO]: Waiting for pending navigations...
-[22.933][INFO]: Done waiting for pending navigations. Status: ok
-[31.636][INFO]: Waiting for pending navigations...
-[52.734][SEVERE]: Unable to receive message from renderer
-[52.735][INFO]: Done waiting for pending navigations. Status: ok
-[52.735][INFO]: RESPONSE Navigate
+[17.546][INFO]: Waiting for pending navigations...
+[17.612][INFO]: Done waiting for pending navigations. Status: ok
+[23.588][INFO]: Waiting for pending navigations...
+[38.200][INFO]: Done waiting for pending navigations. Status: ok
+[38.201][INFO]: RESPONSE Navigate
+[38.343][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@name='username']"
+}
+[38.344][INFO]: Waiting for pending navigations...
+[38.408][INFO]: Done waiting for pending navigations. Status: ok
+[38.599][INFO]: Waiting for pending navigations...
+[38.632][INFO]: Done waiting for pending navigations. Status: ok
+[38.633][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8315279173373464-1"
+}
+[38.676][INFO]: COMMAND TypeElement {
+   "id": "0.8315279173373464-1",
+   "value": [ "pawanawasthi83" ]
+}
+[38.676][INFO]: Waiting for pending navigations...
+[38.692][INFO]: Done waiting for pending navigations. Status: ok
+[43.621][INFO]: Waiting for pending navigations...
+[43.627][INFO]: Done waiting for pending navigations. Status: ok
+[43.627][INFO]: RESPONSE TypeElement
+[43.673][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@name='password']"
+}
+[43.673][INFO]: Waiting for pending navigations...
+[43.689][INFO]: Done waiting for pending navigations. Status: ok
+[43.813][INFO]: Waiting for pending navigations...
+[43.826][INFO]: Done waiting for pending navigations. Status: ok
+[43.827][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8315279173373464-2"
+}
+[43.911][INFO]: COMMAND TypeElement {
+   "id": "0.8315279173373464-2",
+   "value": [ "Vivalv@1983" ]
+}
+[43.911][INFO]: Waiting for pending navigations...
+[43.938][INFO]: Done waiting for pending navigations. Status: ok
+[45.378][INFO]: Waiting for pending navigations...
+[47.610][INFO]: Done waiting for pending navigations. Status: ok
+[47.611][INFO]: RESPONSE TypeElement
+[47.652][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@type='submit']"
+}
+[47.652][INFO]: Waiting for pending navigations...
+[47.754][INFO]: Done waiting for pending navigations. Status: ok
+[47.915][INFO]: Waiting for pending navigations...
+[47.959][INFO]: Done waiting for pending navigations. Status: ok
+[47.959][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8315279173373464-3"
+}
+[48.001][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.8315279173373464-3"
+}
+[48.001][INFO]: Waiting for pending navigations...
+[48.004][INFO]: Done waiting for pending navigations. Status: ok
+[48.077][INFO]: Waiting for pending navigations...
+[48.085][INFO]: Done waiting for pending navigations. Status: ok
+[48.085][INFO]: RESPONSE IsElementDisplayed true
+[48.129][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@type='submit']"
+}
+[48.129][INFO]: Waiting for pending navigations...
+[48.138][INFO]: Done waiting for pending navigations. Status: ok
+[48.170][INFO]: Waiting for pending navigations...
+[48.179][INFO]: Done waiting for pending navigations. Status: ok
+[48.179][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8315279173373464-3"
+}
+[48.251][INFO]: COMMAND IsElementEnabled {
+   "id": "0.8315279173373464-3"
+}
+[48.251][INFO]: Waiting for pending navigations...
+[48.257][INFO]: Done waiting for pending navigations. Status: ok
+[48.313][INFO]: Waiting for pending navigations...
+[48.329][INFO]: Done waiting for pending navigations. Status: ok
+[48.329][INFO]: RESPONSE IsElementEnabled true
+[48.371][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@type='submit']"
+}
+[48.371][INFO]: Waiting for pending navigations...
+[48.376][INFO]: Done waiting for pending navigations. Status: ok
+[48.409][INFO]: Waiting for pending navigations...
+[48.420][INFO]: Done waiting for pending navigations. Status: ok
+[48.420][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8315279173373464-3"
+}
+[48.463][INFO]: COMMAND ClickElement {
+   "id": "0.8315279173373464-3"
+}
+[48.463][INFO]: Waiting for pending navigations...
+[48.477][INFO]: Done waiting for pending navigations. Status: ok
+[52.073][INFO]: Waiting for pending navigations...
+[80.372][INFO]: Done waiting for pending navigations. Status: ok
+[80.372][INFO]: RESPONSE ClickElement
+[80.445][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//frame[@name='mainpanel']"
+}
+[80.445][INFO]: Waiting for pending navigations...
+[80.466][INFO]: Done waiting for pending navigations. Status: ok
+[80.540][INFO]: Waiting for pending navigations...
+[80.542][INFO]: Done waiting for pending navigations. Status: ok
+[80.543][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.4201736881681746-1"
+}
+[80.580][INFO]: COMMAND SwitchToFrame {
+   "id": {
+      "ELEMENT": "0.4201736881681746-1",
+      "element-6066-11e4-a52e-4f735466cecf": "0.4201736881681746-1"
+   }
+}
+[80.580][INFO]: Waiting for pending navigations...
+[80.599][INFO]: Done waiting for pending navigations. Status: ok
+[80.908][INFO]: Waiting for pending navigations...
+[80.917][INFO]: Done waiting for pending navigations. Status: ok
+[80.917][INFO]: RESPONSE SwitchToFrame
+[80.968][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[contains(text(),'Contacts')]"
+}
+[80.968][INFO]: Waiting for pending navigations...
+[80.975][INFO]: Done waiting for pending navigations. Status: ok
+[81.117][INFO]: Waiting for pending navigations...
+[81.121][INFO]: Done waiting for pending navigations. Status: ok
+[81.121][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8287275128823894-1"
+}
+[81.160][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.8287275128823894-1"
+}
+[81.160][INFO]: Waiting for pending navigations...
+[81.161][INFO]: Done waiting for pending navigations. Status: ok
+[81.226][INFO]: Waiting for pending navigations...
+[81.231][INFO]: Done waiting for pending navigations. Status: ok
+[81.231][INFO]: RESPONSE IsElementDisplayed true
+[81.273][INFO]: COMMAND GetTitle {
+
+}
+[81.273][INFO]: Waiting for pending navigations...
+[81.275][INFO]: Done waiting for pending navigations. Status: ok
+[81.287][INFO]: Waiting for pending navigations...
+[81.293][INFO]: Done waiting for pending navigations. Status: ok
+[81.293][INFO]: RESPONSE GetTitle "CRMPRO"
+[81.320][INFO]: COMMAND CloseWindow {
+
+}
+[81.542][INFO]: RESPONSE CloseWindow

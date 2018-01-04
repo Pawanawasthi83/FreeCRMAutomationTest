@@ -21,6 +21,7 @@ public class DesiredCapabilitiesManager extends TestBase{
 		caps.setBrowserName("firefox");
 		caps.setVersion("46");
 		caps.setPlatform(Platform.WIN8);
+		caps.setCapability(FirefoxDriver.BINARY, TestConfig.fireFoxBinary);
 		caps.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
 		caps.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR, UnexpectedAlertBehaviour.IGNORE);
 		caps.setCapability(CapabilityType.SUPPORTS_JAVASCRIPT, true);
@@ -109,9 +110,11 @@ public class DesiredCapabilitiesManager extends TestBase{
 
 	public static DesiredCapabilities phantomJSDC() {
 		
+		String[] phantomArgs = {"--webdriver-logfile="+TestConfig.phantomJSLogsPath};
 		DesiredCapabilities caps = new DesiredCapabilities();
 		caps.setJavascriptEnabled(true);
-		caps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, TestConfig.phantomJSPath);
+		caps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, TestConfig.phantomJSBinaryPath);
+		caps.setCapability(PhantomJSDriverService.PHANTOMJS_CLI_ARGS, phantomArgs);
 		return caps;
 
 	}

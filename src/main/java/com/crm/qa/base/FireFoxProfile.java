@@ -9,6 +9,7 @@ public class FireFoxProfile {
 	private static FirefoxProfile profile;
 	
 	public static FirefoxProfile fireFoxProfile(){
+		
 		profile=new FirefoxProfile();
 		profile.setPreference("browser.download.folderList", 2);
 		profile.setPreference("browser.download.panel.shown", false);

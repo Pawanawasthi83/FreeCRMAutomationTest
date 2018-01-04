@@ -1,4 +1,26 @@
-I 2018-01-03 13:03:07:784 server.cc(86) Starting WebDriver server on port: '42940' on host: ''
-I 2018-01-03 13:03:07:785 IEServer.cpp(32) Driver version: 2.53.0.0 (32-bit)
-I 2018-01-03 13:03:15:667 IECommandExecutor.cpp(678) Persistent hovering set to: 0
-I 2018-01-03 13:03:15:668 IECommandExecutor.cpp(680) Stopping previously-running persistent event thread.
+I 2018-01-04 20:30:59:650 server.cc(86) Starting WebDriver server on port: '6317' on host: ''
+I 2018-01-04 20:30:59:651 IEServer.cpp(32) Driver version: 2.53.0.0 (32-bit)
+I 2018-01-04 20:31:07:238 IECommandExecutor.cpp(678) Persistent hovering set to: 0
+I 2018-01-04 20:31:07:238 IECommandExecutor.cpp(680) Stopping previously-running persistent event thread.
+I 2018-01-04 20:31:18:447 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2018-01-04 20:31:18:729 VariantUtilities.cpp(179) Unknown type of dispatch is found in result, assuming IHTMLElement
+I 2018-01-04 20:31:18:819 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2018-01-04 20:31:20:597 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2018-01-04 20:31:21:472 VariantUtilities.cpp(179) Unknown type of dispatch is found in result, assuming IHTMLElement
+I 2018-01-04 20:31:21:644 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2018-01-04 20:31:24:619 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2018-01-04 20:31:24:993 VariantUtilities.cpp(179) Unknown type of dispatch is found in result, assuming IHTMLElement
+I 2018-01-04 20:31:25:143 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2018-01-04 20:31:25:410 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2018-01-04 20:31:25:580 VariantUtilities.cpp(179) Unknown type of dispatch is found in result, assuming IHTMLElement
+I 2018-01-04 20:31:25:643 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2018-01-04 20:31:25:799 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2018-01-04 20:31:25:960 VariantUtilities.cpp(179) Unknown type of dispatch is found in result, assuming IHTMLElement
+I 2018-01-04 20:31:26:026 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2018-01-04 20:31:27:167 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2018-01-04 20:31:27:646 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2018-01-04 20:31:28:044 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2018-01-04 20:31:28:771 VariantUtilities.cpp(179) Unknown type of dispatch is found in result, assuming IHTMLElement
+I 2018-01-04 20:31:28:849 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2018-01-04 20:31:35:936 VariantUtilities.cpp(179) Unknown type of dispatch is found in result, assuming IHTMLElement
+W 2018-01-04 20:31:36:124 IECommandExecutor.cpp(549) Unable to get current browser

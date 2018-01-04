@@ -28,9 +28,9 @@ public class LoginPageTest extends TestBase {
 	public void setup(String browser ){
 		log.debug("Before Method Starts ....");
 		initialization(browser);
-		
 		loginPageObj = new LoginPage();
 	}
+	
 	@Test(priority=1)
 	public void testLoginPageTitleText(){
 		String pageTitle = loginPageObj.getLoginPageTitle();
@@ -47,6 +47,7 @@ public class LoginPageTest extends TestBase {
 		String title = homePageObj.getHomePageTitle();
 		Assert.assertEquals(title, prop.getProperty("homepagetitle"));
 	}
+	
 	@AfterMethod
 	public void teardown(){
 		driver.close();
