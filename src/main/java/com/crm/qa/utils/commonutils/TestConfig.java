@@ -43,4 +43,5 @@ public class TestConfig {
 			+ File.separator + "config" + File.separator + "extent-config.xml";
 	public static String phantomJSBinaryPath = System.getProperty("user.dir") + File.separator + "src" + File.separator
 			+ "main" + File.separator + "resources" + File.separator + "Drivers" + File.separator + "phantomjs.exe";
+	
 }

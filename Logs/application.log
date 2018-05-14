@@ -1,235 +1,279 @@
-01-04-2018 20:25:13 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:25:14 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:25:14 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:25:14 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:25:14 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:25:14 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:25:14 LoginPageTest.java DEBUG [main] devpinoyLogger 29 - Before Method Starts ....
-01-04-2018 20:25:14 TestBase.java DEBUG [main] devpinoyLogger 59 - Envirnoment Initilization ......
-01-04-2018 20:25:14 TestBase.java DEBUG [main] devpinoyLogger 60 - Initializing Web Driver For Browser : FF
-01-04-2018 20:25:14 TestBase.java DEBUG [main] devpinoyLogger 63 - Inside FF Driver
-01-04-2018 20:26:11 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:26:11 TestBase.java DEBUG [main] devpinoyLogger 87 - Registering the Event Firing Web Driver with the Listener 
-01-04-2018 20:26:11 TestBase.java DEBUG [main] devpinoyLogger 93 - Envirnoment Initilization Finished ......
-01-04-2018 20:26:11 TestBase.java DEBUG [main] devpinoyLogger 95 - Launching Web URL
-01-04-2018 20:26:11 WebDriverEventListener.java DEBUG [main] devpinoyLogger 83 - Navigating To URL : https://www.freecrm.com/index.html
-01-04-2018 20:26:31 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:26:31 LoginPageTest.java DEBUG [main] devpinoyLogger 29 - Before Method Starts ....
-01-04-2018 20:26:31 TestBase.java DEBUG [main] devpinoyLogger 59 - Envirnoment Initilization ......
-01-04-2018 20:26:31 TestBase.java DEBUG [main] devpinoyLogger 60 - Initializing Web Driver For Browser : FF
-01-04-2018 20:26:31 TestBase.java DEBUG [main] devpinoyLogger 63 - Inside FF Driver
-01-04-2018 20:26:51 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:26:51 TestBase.java DEBUG [main] devpinoyLogger 87 - Registering the Event Firing Web Driver with the Listener 
-01-04-2018 20:26:53 TestBase.java DEBUG [main] devpinoyLogger 93 - Envirnoment Initilization Finished ......
-01-04-2018 20:26:53 TestBase.java DEBUG [main] devpinoyLogger 95 - Launching Web URL
-01-04-2018 20:26:53 WebDriverEventListener.java DEBUG [main] devpinoyLogger 83 - Navigating To URL : https://www.freecrm.com/index.html
-01-04-2018 20:27:07 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:27:11 TestBase.java DEBUG [main] devpinoyLogger 100 - Getting Web Driver Instance
-01-04-2018 20:27:11 LoginPageTest.java DEBUG [main] devpinoyLogger 55 - After Methods ends ...
-01-04-2018 20:27:11 LoginPageTest.java DEBUG [main] devpinoyLogger 29 - Before Method Starts ....
-01-04-2018 20:27:11 TestBase.java DEBUG [main] devpinoyLogger 59 - Envirnoment Initilization ......
-01-04-2018 20:27:11 TestBase.java DEBUG [main] devpinoyLogger 60 - Initializing Web Driver For Browser : FF
-01-04-2018 20:27:11 TestBase.java DEBUG [main] devpinoyLogger 63 - Inside FF Driver
-01-04-2018 20:27:21 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:27:21 TestBase.java DEBUG [main] devpinoyLogger 87 - Registering the Event Firing Web Driver with the Listener 
-01-04-2018 20:27:21 TestBase.java DEBUG [main] devpinoyLogger 93 - Envirnoment Initilization Finished ......
-01-04-2018 20:27:21 TestBase.java DEBUG [main] devpinoyLogger 95 - Launching Web URL
-01-04-2018 20:27:21 WebDriverEventListener.java DEBUG [main] devpinoyLogger 83 - Navigating To URL : https://www.freecrm.com/index.html
-01-04-2018 20:27:34 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:27:37 TestBase.java DEBUG [main] devpinoyLogger 100 - Getting Web Driver Instance
-01-04-2018 20:27:37 LoginPageTest.java DEBUG [main] devpinoyLogger 55 - After Methods ends ...
-01-04-2018 20:27:37 LoginPageTest.java DEBUG [main] devpinoyLogger 29 - Before Method Starts ....
-01-04-2018 20:27:37 TestBase.java DEBUG [main] devpinoyLogger 59 - Envirnoment Initilization ......
-01-04-2018 20:27:37 TestBase.java DEBUG [main] devpinoyLogger 60 - Initializing Web Driver For Browser : FF
-01-04-2018 20:27:37 TestBase.java DEBUG [main] devpinoyLogger 63 - Inside FF Driver
-01-04-2018 20:27:46 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:27:46 TestBase.java DEBUG [main] devpinoyLogger 87 - Registering the Event Firing Web Driver with the Listener 
-01-04-2018 20:27:47 TestBase.java DEBUG [main] devpinoyLogger 93 - Envirnoment Initilization Finished ......
-01-04-2018 20:27:47 TestBase.java DEBUG [main] devpinoyLogger 95 - Launching Web URL
-01-04-2018 20:27:47 WebDriverEventListener.java DEBUG [main] devpinoyLogger 83 - Navigating To URL : https://www.freecrm.com/index.html
-01-04-2018 20:27:58 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:27:58 LoginPage.java DEBUG [main] devpinoyLogger 46 - Inside Login Method
-01-04-2018 20:28:04 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (3cbfb03c-bd75-476a-8a58-731e93f24a0e)] -> xpath: //input[@type='submit']]
-01-04-2018 20:28:25 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:28:28 TestBase.java DEBUG [main] devpinoyLogger 100 - Getting Web Driver Instance
-01-04-2018 20:28:28 LoginPageTest.java DEBUG [main] devpinoyLogger 55 - After Methods ends ...
-01-04-2018 20:28:29 LoginPageTest.java DEBUG [main] devpinoyLogger 29 - Before Method Starts ....
-01-04-2018 20:28:29 TestBase.java DEBUG [main] devpinoyLogger 59 - Envirnoment Initilization ......
-01-04-2018 20:28:29 TestBase.java DEBUG [main] devpinoyLogger 60 - Initializing Web Driver For Browser : chrome
-01-04-2018 20:28:37 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:28:37 TestBase.java DEBUG [main] devpinoyLogger 87 - Registering the Event Firing Web Driver with the Listener 
-01-04-2018 20:28:37 TestBase.java DEBUG [main] devpinoyLogger 93 - Envirnoment Initilization Finished ......
-01-04-2018 20:28:37 TestBase.java DEBUG [main] devpinoyLogger 95 - Launching Web URL
-01-04-2018 20:28:37 WebDriverEventListener.java DEBUG [main] devpinoyLogger 83 - Navigating To URL : https://www.freecrm.com/index.html
-01-04-2018 20:28:49 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:28:49 LoginPageTest.java DEBUG [main] devpinoyLogger 29 - Before Method Starts ....
-01-04-2018 20:28:49 TestBase.java DEBUG [main] devpinoyLogger 59 - Envirnoment Initilization ......
-01-04-2018 20:28:49 TestBase.java DEBUG [main] devpinoyLogger 60 - Initializing Web Driver For Browser : chrome
-01-04-2018 20:28:51 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:28:51 TestBase.java DEBUG [main] devpinoyLogger 87 - Registering the Event Firing Web Driver with the Listener 
-01-04-2018 20:28:51 TestBase.java DEBUG [main] devpinoyLogger 93 - Envirnoment Initilization Finished ......
-01-04-2018 20:28:51 TestBase.java DEBUG [main] devpinoyLogger 95 - Launching Web URL
-01-04-2018 20:28:51 WebDriverEventListener.java DEBUG [main] devpinoyLogger 83 - Navigating To URL : https://www.freecrm.com/index.html
-01-04-2018 20:29:02 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:29:02 TestBase.java DEBUG [main] devpinoyLogger 100 - Getting Web Driver Instance
-01-04-2018 20:29:02 LoginPageTest.java DEBUG [main] devpinoyLogger 55 - After Methods ends ...
-01-04-2018 20:29:02 LoginPageTest.java DEBUG [main] devpinoyLogger 29 - Before Method Starts ....
-01-04-2018 20:29:02 TestBase.java DEBUG [main] devpinoyLogger 59 - Envirnoment Initilization ......
-01-04-2018 20:29:02 TestBase.java DEBUG [main] devpinoyLogger 60 - Initializing Web Driver For Browser : chrome
-01-04-2018 20:29:04 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:29:04 TestBase.java DEBUG [main] devpinoyLogger 87 - Registering the Event Firing Web Driver with the Listener 
-01-04-2018 20:29:04 TestBase.java DEBUG [main] devpinoyLogger 93 - Envirnoment Initilization Finished ......
-01-04-2018 20:29:04 TestBase.java DEBUG [main] devpinoyLogger 95 - Launching Web URL
-01-04-2018 20:29:04 WebDriverEventListener.java DEBUG [main] devpinoyLogger 83 - Navigating To URL : https://www.freecrm.com/index.html
-01-04-2018 20:29:17 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:29:17 TestBase.java DEBUG [main] devpinoyLogger 100 - Getting Web Driver Instance
-01-04-2018 20:29:17 LoginPageTest.java DEBUG [main] devpinoyLogger 55 - After Methods ends ...
-01-04-2018 20:29:17 LoginPageTest.java DEBUG [main] devpinoyLogger 29 - Before Method Starts ....
-01-04-2018 20:29:17 TestBase.java DEBUG [main] devpinoyLogger 59 - Envirnoment Initilization ......
-01-04-2018 20:29:17 TestBase.java DEBUG [main] devpinoyLogger 60 - Initializing Web Driver For Browser : chrome
-01-04-2018 20:29:19 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:29:19 TestBase.java DEBUG [main] devpinoyLogger 87 - Registering the Event Firing Web Driver with the Listener 
-01-04-2018 20:29:19 TestBase.java DEBUG [main] devpinoyLogger 93 - Envirnoment Initilization Finished ......
-01-04-2018 20:29:19 TestBase.java DEBUG [main] devpinoyLogger 95 - Launching Web URL
-01-04-2018 20:29:19 WebDriverEventListener.java DEBUG [main] devpinoyLogger 83 - Navigating To URL : https://www.freecrm.com/index.html
-01-04-2018 20:29:30 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:29:30 LoginPage.java DEBUG [main] devpinoyLogger 46 - Inside Login Method
-01-04-2018 20:29:31 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[ChromeDriver: chrome on WIN8 (52973110075ca968b83b54f7df87e9c7)] -> xpath: //input[@type='submit']]
-01-04-2018 20:29:43 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:29:43 TestBase.java DEBUG [main] devpinoyLogger 100 - Getting Web Driver Instance
-01-04-2018 20:29:43 LoginPageTest.java DEBUG [main] devpinoyLogger 55 - After Methods ends ...
-01-04-2018 20:29:44 LoginPageTest.java DEBUG [main] devpinoyLogger 29 - Before Method Starts ....
-01-04-2018 20:29:44 TestBase.java DEBUG [main] devpinoyLogger 59 - Envirnoment Initilization ......
-01-04-2018 20:29:44 TestBase.java DEBUG [main] devpinoyLogger 60 - Initializing Web Driver For Browser : IE
-01-04-2018 20:30:10 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:30:10 TestBase.java DEBUG [main] devpinoyLogger 87 - Registering the Event Firing Web Driver with the Listener 
-01-04-2018 20:30:10 TestBase.java DEBUG [main] devpinoyLogger 93 - Envirnoment Initilization Finished ......
-01-04-2018 20:30:10 TestBase.java DEBUG [main] devpinoyLogger 95 - Launching Web URL
-01-04-2018 20:30:10 WebDriverEventListener.java DEBUG [main] devpinoyLogger 83 - Navigating To URL : https://www.freecrm.com/index.html
-01-04-2018 20:30:24 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:30:24 LoginPageTest.java DEBUG [main] devpinoyLogger 29 - Before Method Starts ....
-01-04-2018 20:30:24 TestBase.java DEBUG [main] devpinoyLogger 59 - Envirnoment Initilization ......
-01-04-2018 20:30:24 TestBase.java DEBUG [main] devpinoyLogger 60 - Initializing Web Driver For Browser : IE
-01-04-2018 20:30:33 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:30:33 TestBase.java DEBUG [main] devpinoyLogger 87 - Registering the Event Firing Web Driver with the Listener 
-01-04-2018 20:30:33 TestBase.java DEBUG [main] devpinoyLogger 93 - Envirnoment Initilization Finished ......
-01-04-2018 20:30:33 TestBase.java DEBUG [main] devpinoyLogger 95 - Launching Web URL
-01-04-2018 20:30:33 WebDriverEventListener.java DEBUG [main] devpinoyLogger 83 - Navigating To URL : https://www.freecrm.com/index.html
-01-04-2018 20:30:39 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:30:39 TestBase.java DEBUG [main] devpinoyLogger 100 - Getting Web Driver Instance
-01-04-2018 20:30:39 LoginPageTest.java DEBUG [main] devpinoyLogger 55 - After Methods ends ...
-01-04-2018 20:30:39 LoginPageTest.java DEBUG [main] devpinoyLogger 29 - Before Method Starts ....
-01-04-2018 20:30:39 TestBase.java DEBUG [main] devpinoyLogger 59 - Envirnoment Initilization ......
-01-04-2018 20:30:39 TestBase.java DEBUG [main] devpinoyLogger 60 - Initializing Web Driver For Browser : IE
-01-04-2018 20:30:47 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:30:47 TestBase.java DEBUG [main] devpinoyLogger 87 - Registering the Event Firing Web Driver with the Listener 
-01-04-2018 20:30:48 TestBase.java DEBUG [main] devpinoyLogger 93 - Envirnoment Initilization Finished ......
-01-04-2018 20:30:48 TestBase.java DEBUG [main] devpinoyLogger 95 - Launching Web URL
-01-04-2018 20:30:48 WebDriverEventListener.java DEBUG [main] devpinoyLogger 83 - Navigating To URL : https://www.freecrm.com/index.html
-01-04-2018 20:30:57 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:30:58 TestBase.java DEBUG [main] devpinoyLogger 100 - Getting Web Driver Instance
-01-04-2018 20:30:58 LoginPageTest.java DEBUG [main] devpinoyLogger 55 - After Methods ends ...
-01-04-2018 20:30:58 LoginPageTest.java DEBUG [main] devpinoyLogger 29 - Before Method Starts ....
-01-04-2018 20:30:58 TestBase.java DEBUG [main] devpinoyLogger 59 - Envirnoment Initilization ......
-01-04-2018 20:30:58 TestBase.java DEBUG [main] devpinoyLogger 60 - Initializing Web Driver For Browser : IE
-01-04-2018 20:31:07 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:31:07 TestBase.java DEBUG [main] devpinoyLogger 87 - Registering the Event Firing Web Driver with the Listener 
-01-04-2018 20:31:07 TestBase.java DEBUG [main] devpinoyLogger 93 - Envirnoment Initilization Finished ......
-01-04-2018 20:31:07 TestBase.java DEBUG [main] devpinoyLogger 95 - Launching Web URL
-01-04-2018 20:31:07 WebDriverEventListener.java DEBUG [main] devpinoyLogger 83 - Navigating To URL : https://www.freecrm.com/index.html
-01-04-2018 20:31:18 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:31:18 LoginPage.java DEBUG [main] devpinoyLogger 46 - Inside Login Method
-01-04-2018 20:31:25 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[InternetExplorerDriver: internet explorer on WINDOWS (e52b796d-a5a1-45c4-be98-e1b3bc6dbee9)] -> xpath: //input[@type='submit']]
-01-04-2018 20:31:27 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:31:36 TestBase.java DEBUG [main] devpinoyLogger 100 - Getting Web Driver Instance
-01-04-2018 20:31:36 LoginPageTest.java DEBUG [main] devpinoyLogger 55 - After Methods ends ...
-01-04-2018 20:31:36 LoginPageTest.java DEBUG [main] devpinoyLogger 29 - Before Method Starts ....
-01-04-2018 20:31:36 TestBase.java DEBUG [main] devpinoyLogger 59 - Envirnoment Initilization ......
-01-04-2018 20:31:36 TestBase.java DEBUG [main] devpinoyLogger 60 - Initializing Web Driver For Browser : opera
-01-04-2018 20:32:16 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:32:16 TestBase.java DEBUG [main] devpinoyLogger 87 - Registering the Event Firing Web Driver with the Listener 
-01-04-2018 20:32:16 TestBase.java DEBUG [main] devpinoyLogger 93 - Envirnoment Initilization Finished ......
-01-04-2018 20:32:16 TestBase.java DEBUG [main] devpinoyLogger 95 - Launching Web URL
-01-04-2018 20:32:16 WebDriverEventListener.java DEBUG [main] devpinoyLogger 83 - Navigating To URL : https://www.freecrm.com/index.html
-01-04-2018 20:32:42 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:32:42 LoginPageTest.java DEBUG [main] devpinoyLogger 29 - Before Method Starts ....
-01-04-2018 20:32:42 TestBase.java DEBUG [main] devpinoyLogger 59 - Envirnoment Initilization ......
-01-04-2018 20:32:42 TestBase.java DEBUG [main] devpinoyLogger 60 - Initializing Web Driver For Browser : opera
-01-04-2018 20:32:50 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:32:50 TestBase.java DEBUG [main] devpinoyLogger 87 - Registering the Event Firing Web Driver with the Listener 
-01-04-2018 20:32:50 TestBase.java DEBUG [main] devpinoyLogger 93 - Envirnoment Initilization Finished ......
-01-04-2018 20:32:50 TestBase.java DEBUG [main] devpinoyLogger 95 - Launching Web URL
-01-04-2018 20:32:50 WebDriverEventListener.java DEBUG [main] devpinoyLogger 83 - Navigating To URL : https://www.freecrm.com/index.html
-01-04-2018 20:33:14 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:33:19 TestBase.java DEBUG [main] devpinoyLogger 100 - Getting Web Driver Instance
-01-04-2018 20:33:19 LoginPageTest.java DEBUG [main] devpinoyLogger 55 - After Methods ends ...
-01-04-2018 20:33:19 LoginPageTest.java DEBUG [main] devpinoyLogger 29 - Before Method Starts ....
-01-04-2018 20:33:19 TestBase.java DEBUG [main] devpinoyLogger 59 - Envirnoment Initilization ......
-01-04-2018 20:33:19 TestBase.java DEBUG [main] devpinoyLogger 60 - Initializing Web Driver For Browser : opera
-01-04-2018 20:33:40 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:33:40 TestBase.java DEBUG [main] devpinoyLogger 87 - Registering the Event Firing Web Driver with the Listener 
-01-04-2018 20:33:40 TestBase.java DEBUG [main] devpinoyLogger 93 - Envirnoment Initilization Finished ......
-01-04-2018 20:33:40 TestBase.java DEBUG [main] devpinoyLogger 95 - Launching Web URL
-01-04-2018 20:33:40 WebDriverEventListener.java DEBUG [main] devpinoyLogger 83 - Navigating To URL : https://www.freecrm.com/index.html
-01-04-2018 20:34:09 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:34:12 TestBase.java DEBUG [main] devpinoyLogger 100 - Getting Web Driver Instance
-01-04-2018 20:34:12 LoginPageTest.java DEBUG [main] devpinoyLogger 55 - After Methods ends ...
-01-04-2018 20:34:12 LoginPageTest.java DEBUG [main] devpinoyLogger 29 - Before Method Starts ....
-01-04-2018 20:34:12 TestBase.java DEBUG [main] devpinoyLogger 59 - Envirnoment Initilization ......
-01-04-2018 20:34:12 TestBase.java DEBUG [main] devpinoyLogger 60 - Initializing Web Driver For Browser : opera
-01-04-2018 20:34:30 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:34:30 TestBase.java DEBUG [main] devpinoyLogger 87 - Registering the Event Firing Web Driver with the Listener 
-01-04-2018 20:34:30 TestBase.java DEBUG [main] devpinoyLogger 93 - Envirnoment Initilization Finished ......
-01-04-2018 20:34:30 TestBase.java DEBUG [main] devpinoyLogger 95 - Launching Web URL
-01-04-2018 20:34:30 WebDriverEventListener.java DEBUG [main] devpinoyLogger 83 - Navigating To URL : https://www.freecrm.com/index.html
-01-04-2018 20:34:51 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:34:51 LoginPage.java DEBUG [main] devpinoyLogger 46 - Inside Login Method
-01-04-2018 20:35:01 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[OperaDriver: chrome on WIN8 (f4ea8f9e113efc2a02624f0beaee7b12)] -> xpath: //input[@type='submit']]
-01-04-2018 20:35:33 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:35:34 TestBase.java DEBUG [main] devpinoyLogger 100 - Getting Web Driver Instance
-01-04-2018 20:35:34 LoginPageTest.java DEBUG [main] devpinoyLogger 55 - After Methods ends ...
-01-04-2018 20:35:36 LoginPageTest.java DEBUG [main] devpinoyLogger 29 - Before Method Starts ....
-01-04-2018 20:35:36 TestBase.java DEBUG [main] devpinoyLogger 59 - Envirnoment Initilization ......
-01-04-2018 20:35:36 TestBase.java DEBUG [main] devpinoyLogger 60 - Initializing Web Driver For Browser : phantom
-01-04-2018 20:35:41 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:35:41 TestBase.java DEBUG [main] devpinoyLogger 87 - Registering the Event Firing Web Driver with the Listener 
-01-04-2018 20:35:41 TestBase.java DEBUG [main] devpinoyLogger 93 - Envirnoment Initilization Finished ......
-01-04-2018 20:35:41 TestBase.java DEBUG [main] devpinoyLogger 95 - Launching Web URL
-01-04-2018 20:35:41 WebDriverEventListener.java DEBUG [main] devpinoyLogger 83 - Navigating To URL : https://www.freecrm.com/index.html
-01-04-2018 20:35:58 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:35:58 LoginPageTest.java DEBUG [main] devpinoyLogger 29 - Before Method Starts ....
-01-04-2018 20:35:58 TestBase.java DEBUG [main] devpinoyLogger 59 - Envirnoment Initilization ......
-01-04-2018 20:35:58 TestBase.java DEBUG [main] devpinoyLogger 60 - Initializing Web Driver For Browser : phantom
-01-04-2018 20:36:03 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:36:03 TestBase.java DEBUG [main] devpinoyLogger 87 - Registering the Event Firing Web Driver with the Listener 
-01-04-2018 20:36:03 TestBase.java DEBUG [main] devpinoyLogger 93 - Envirnoment Initilization Finished ......
-01-04-2018 20:36:03 TestBase.java DEBUG [main] devpinoyLogger 95 - Launching Web URL
-01-04-2018 20:36:03 WebDriverEventListener.java DEBUG [main] devpinoyLogger 83 - Navigating To URL : https://www.freecrm.com/index.html
-01-04-2018 20:36:18 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:36:19 TestBase.java DEBUG [main] devpinoyLogger 100 - Getting Web Driver Instance
-01-04-2018 20:36:19 LoginPageTest.java DEBUG [main] devpinoyLogger 55 - After Methods ends ...
-01-04-2018 20:36:19 LoginPageTest.java DEBUG [main] devpinoyLogger 29 - Before Method Starts ....
-01-04-2018 20:36:19 TestBase.java DEBUG [main] devpinoyLogger 59 - Envirnoment Initilization ......
-01-04-2018 20:36:19 TestBase.java DEBUG [main] devpinoyLogger 60 - Initializing Web Driver For Browser : phantom
-01-04-2018 20:36:25 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:36:25 TestBase.java DEBUG [main] devpinoyLogger 87 - Registering the Event Firing Web Driver with the Listener 
-01-04-2018 20:36:25 TestBase.java DEBUG [main] devpinoyLogger 93 - Envirnoment Initilization Finished ......
-01-04-2018 20:36:25 TestBase.java DEBUG [main] devpinoyLogger 95 - Launching Web URL
-01-04-2018 20:36:25 WebDriverEventListener.java DEBUG [main] devpinoyLogger 83 - Navigating To URL : https://www.freecrm.com/index.html
-01-04-2018 20:36:53 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:36:53 TestBase.java DEBUG [main] devpinoyLogger 100 - Getting Web Driver Instance
-01-04-2018 20:36:53 LoginPageTest.java DEBUG [main] devpinoyLogger 55 - After Methods ends ...
-01-04-2018 20:36:53 LoginPageTest.java DEBUG [main] devpinoyLogger 29 - Before Method Starts ....
-01-04-2018 20:36:53 TestBase.java DEBUG [main] devpinoyLogger 59 - Envirnoment Initilization ......
-01-04-2018 20:36:53 TestBase.java DEBUG [main] devpinoyLogger 60 - Initializing Web Driver For Browser : phantom
-01-04-2018 20:37:00 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:37:00 TestBase.java DEBUG [main] devpinoyLogger 87 - Registering the Event Firing Web Driver with the Listener 
-01-04-2018 20:37:00 TestBase.java DEBUG [main] devpinoyLogger 93 - Envirnoment Initilization Finished ......
-01-04-2018 20:37:00 TestBase.java DEBUG [main] devpinoyLogger 95 - Launching Web URL
-01-04-2018 20:37:00 WebDriverEventListener.java DEBUG [main] devpinoyLogger 83 - Navigating To URL : https://www.freecrm.com/index.html
-01-04-2018 20:37:19 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:37:19 LoginPage.java DEBUG [main] devpinoyLogger 46 - Inside Login Method
-01-04-2018 20:37:20 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[PhantomJSDriver: phantomjs on XP (ea126d00-f160-11e7-ba14-1b2db09c875e)] -> xpath: //input[@type='submit']]
-01-04-2018 20:37:49 TestBase.java DEBUG [main] devpinoyLogger 40 - Initializing Constructor Of The Base Class 
-01-04-2018 20:37:49 TestBase.java DEBUG [main] devpinoyLogger 100 - Getting Web Driver Instance
-01-04-2018 20:37:49 LoginPageTest.java DEBUG [main] devpinoyLogger 55 - After Methods ends ...
+02-06-2018 15:35:14 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:35:14 TestBase.java DEBUG [main] devpinoyLogger 40 - Current Thread ID On my project : 1
+02-06-2018 15:35:14 TestBase.java DEBUG [main] devpinoyLogger 41 - Envirnoment Initilization ......
+02-06-2018 15:35:14 TestBase.java DEBUG [main] devpinoyLogger 42 - Initializing Web Driver For Browser : ff
+02-06-2018 15:35:14 TestBase.java DEBUG [main] devpinoyLogger 45 - Inside FF Driver
+02-06-2018 15:35:24 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:35:24 TestBase.java DEBUG [main] devpinoyLogger 69 - Registering the Event Firing Web Driver with the Listener 
+02-06-2018 15:35:24 TestBase.java DEBUG [main] devpinoyLogger 75 - Envirnoment Initilization Finished ......
+02-06-2018 15:35:24 TestBase.java DEBUG [main] devpinoyLogger 77 - Launching Web URL
+02-06-2018 15:35:24 WebDriverEventListener.java DEBUG [main] devpinoyLogger 83 - Navigating To URL : https://www.freecrm.com/index.html
+02-06-2018 15:35:37 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:35:37 LoginPage.java DEBUG [main] devpinoyLogger 48 - Inside Login Method
+02-06-2018 15:35:42 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (6089d9eb-e25b-4408-912b-5188bef5d0d3)] -> xpath: //input[@type='submit']]
+02-06-2018 15:35:44 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:35:57 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (6089d9eb-e25b-4408-912b-5188bef5d0d3)] -> xpath: //a[contains(text(),'Contacts')]]
+02-06-2018 15:35:58 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:35:59 TestBase.java DEBUG [main] devpinoyLogger 40 - Current Thread ID On my project : 1
+02-06-2018 15:35:59 TestBase.java DEBUG [main] devpinoyLogger 41 - Envirnoment Initilization ......
+02-06-2018 15:35:59 TestBase.java DEBUG [main] devpinoyLogger 42 - Initializing Web Driver For Browser : ff
+02-06-2018 15:35:59 TestBase.java DEBUG [main] devpinoyLogger 45 - Inside FF Driver
+02-06-2018 15:36:11 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:36:11 TestBase.java DEBUG [main] devpinoyLogger 69 - Registering the Event Firing Web Driver with the Listener 
+02-06-2018 15:36:11 TestBase.java DEBUG [main] devpinoyLogger 75 - Envirnoment Initilization Finished ......
+02-06-2018 15:36:11 TestBase.java DEBUG [main] devpinoyLogger 77 - Launching Web URL
+02-06-2018 15:36:11 WebDriverEventListener.java DEBUG [main] devpinoyLogger 83 - Navigating To URL : https://www.freecrm.com/index.html
+02-06-2018 15:36:33 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:36:33 LoginPage.java DEBUG [main] devpinoyLogger 48 - Inside Login Method
+02-06-2018 15:36:42 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (5c83b668-174f-4efc-8f87-8b354b4e25e6)] -> xpath: //input[@type='submit']]
+02-06-2018 15:36:43 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:37:02 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (5c83b668-174f-4efc-8f87-8b354b4e25e6)] -> xpath: //a[contains(text(),'Contacts')]]
+02-06-2018 15:37:02 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:37:07 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (5c83b668-174f-4efc-8f87-8b354b4e25e6)] -> xpath: //a[contains(text(),'New Contact')]]
+02-06-2018 15:37:14 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[[[FirefoxDriver: firefox on WINDOWS (5c83b668-174f-4efc-8f87-8b354b4e25e6)] -> xpath: //select[@name='title']]] -> xpath: .//option[normalize-space(.) = "Dr."]]
+02-06-2018 15:37:17 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (5c83b668-174f-4efc-8f87-8b354b4e25e6)] -> xpath: //form[@id='contactForm']/table/tbody/tr[1]/td/input[2]]
+02-06-2018 15:37:25 TestBase.java DEBUG [main] devpinoyLogger 82 - Getting Web Driver Instance
+02-06-2018 15:37:25 TestBase.java DEBUG [main] devpinoyLogger 40 - Current Thread ID On my project : 1
+02-06-2018 15:37:25 TestBase.java DEBUG [main] devpinoyLogger 41 - Envirnoment Initilization ......
+02-06-2018 15:37:25 TestBase.java DEBUG [main] devpinoyLogger 42 - Initializing Web Driver For Browser : ff
+02-06-2018 15:37:25 TestBase.java DEBUG [main] devpinoyLogger 45 - Inside FF Driver
+02-06-2018 15:37:53 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:37:53 TestBase.java DEBUG [main] devpinoyLogger 69 - Registering the Event Firing Web Driver with the Listener 
+02-06-2018 15:37:55 TestBase.java DEBUG [main] devpinoyLogger 75 - Envirnoment Initilization Finished ......
+02-06-2018 15:37:55 TestBase.java DEBUG [main] devpinoyLogger 77 - Launching Web URL
+02-06-2018 15:37:55 WebDriverEventListener.java DEBUG [main] devpinoyLogger 83 - Navigating To URL : https://www.freecrm.com/index.html
+02-06-2018 15:38:07 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:38:07 LoginPage.java DEBUG [main] devpinoyLogger 48 - Inside Login Method
+02-06-2018 15:38:13 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (d3f1a11f-17c2-4834-87a0-8c66de4d3ef4)] -> xpath: //input[@type='submit']]
+02-06-2018 15:38:13 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:38:26 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (d3f1a11f-17c2-4834-87a0-8c66de4d3ef4)] -> xpath: //a[contains(text(),'Contacts')]]
+02-06-2018 15:38:27 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:38:29 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (d3f1a11f-17c2-4834-87a0-8c66de4d3ef4)] -> xpath: //a[contains(text(),'New Contact')]]
+02-06-2018 15:38:32 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[[[FirefoxDriver: firefox on WINDOWS (d3f1a11f-17c2-4834-87a0-8c66de4d3ef4)] -> xpath: //select[@name='title']]] -> xpath: .//option[normalize-space(.) = "Miss"]]
+02-06-2018 15:38:34 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (d3f1a11f-17c2-4834-87a0-8c66de4d3ef4)] -> xpath: //form[@id='contactForm']/table/tbody/tr[1]/td/input[2]]
+02-06-2018 15:38:39 TestBase.java DEBUG [main] devpinoyLogger 82 - Getting Web Driver Instance
+02-06-2018 15:38:39 TestBase.java DEBUG [main] devpinoyLogger 40 - Current Thread ID On my project : 1
+02-06-2018 15:38:39 TestBase.java DEBUG [main] devpinoyLogger 41 - Envirnoment Initilization ......
+02-06-2018 15:38:39 TestBase.java DEBUG [main] devpinoyLogger 42 - Initializing Web Driver For Browser : ff
+02-06-2018 15:38:39 TestBase.java DEBUG [main] devpinoyLogger 45 - Inside FF Driver
+02-06-2018 15:38:45 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:38:45 TestBase.java DEBUG [main] devpinoyLogger 69 - Registering the Event Firing Web Driver with the Listener 
+02-06-2018 15:38:45 TestBase.java DEBUG [main] devpinoyLogger 75 - Envirnoment Initilization Finished ......
+02-06-2018 15:38:45 TestBase.java DEBUG [main] devpinoyLogger 77 - Launching Web URL
+02-06-2018 15:38:45 WebDriverEventListener.java DEBUG [main] devpinoyLogger 83 - Navigating To URL : https://www.freecrm.com/index.html
+02-06-2018 15:38:57 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:38:57 LoginPage.java DEBUG [main] devpinoyLogger 48 - Inside Login Method
+02-06-2018 15:39:01 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (5df4aa2e-0da7-4646-bfd2-e5866cf4a65e)] -> xpath: //input[@type='submit']]
+02-06-2018 15:39:01 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:39:20 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (5df4aa2e-0da7-4646-bfd2-e5866cf4a65e)] -> xpath: //a[contains(text(),'Contacts')]]
+02-06-2018 15:39:21 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:39:25 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (5df4aa2e-0da7-4646-bfd2-e5866cf4a65e)] -> xpath: //a[contains(text(),'New Contact')]]
+02-06-2018 15:39:29 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[[[FirefoxDriver: firefox on WINDOWS (5df4aa2e-0da7-4646-bfd2-e5866cf4a65e)] -> xpath: //select[@name='title']]] -> xpath: .//option[normalize-space(.) = "Mr."]]
+02-06-2018 15:39:30 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (5df4aa2e-0da7-4646-bfd2-e5866cf4a65e)] -> xpath: //form[@id='contactForm']/table/tbody/tr[1]/td/input[2]]
+02-06-2018 15:39:37 TestBase.java DEBUG [main] devpinoyLogger 82 - Getting Web Driver Instance
+02-06-2018 15:39:37 TestBase.java DEBUG [main] devpinoyLogger 40 - Current Thread ID On my project : 1
+02-06-2018 15:39:37 TestBase.java DEBUG [main] devpinoyLogger 41 - Envirnoment Initilization ......
+02-06-2018 15:39:37 TestBase.java DEBUG [main] devpinoyLogger 42 - Initializing Web Driver For Browser : ff
+02-06-2018 15:39:37 TestBase.java DEBUG [main] devpinoyLogger 45 - Inside FF Driver
+02-06-2018 15:39:43 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:39:43 TestBase.java DEBUG [main] devpinoyLogger 69 - Registering the Event Firing Web Driver with the Listener 
+02-06-2018 15:39:43 TestBase.java DEBUG [main] devpinoyLogger 75 - Envirnoment Initilization Finished ......
+02-06-2018 15:39:43 TestBase.java DEBUG [main] devpinoyLogger 77 - Launching Web URL
+02-06-2018 15:39:43 WebDriverEventListener.java DEBUG [main] devpinoyLogger 83 - Navigating To URL : https://www.freecrm.com/index.html
+02-06-2018 15:39:58 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:39:58 LoginPage.java DEBUG [main] devpinoyLogger 48 - Inside Login Method
+02-06-2018 15:40:03 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (0019f4ea-ec18-42a8-93f1-c868547c7f0b)] -> xpath: //input[@type='submit']]
+02-06-2018 15:40:03 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:40:19 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (0019f4ea-ec18-42a8-93f1-c868547c7f0b)] -> xpath: //a[contains(text(),'Contacts')]]
+02-06-2018 15:40:19 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:40:22 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (0019f4ea-ec18-42a8-93f1-c868547c7f0b)] -> xpath: //a[contains(text(),'New Contact')]]
+02-06-2018 15:40:25 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[[[FirefoxDriver: firefox on WINDOWS (0019f4ea-ec18-42a8-93f1-c868547c7f0b)] -> xpath: //select[@name='title']]] -> xpath: .//option[normalize-space(.) = "Mr."]]
+02-06-2018 15:40:26 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (0019f4ea-ec18-42a8-93f1-c868547c7f0b)] -> xpath: //form[@id='contactForm']/table/tbody/tr[1]/td/input[2]]
+02-06-2018 15:40:28 TestBase.java DEBUG [main] devpinoyLogger 82 - Getting Web Driver Instance
+02-06-2018 15:40:28 TestBase.java DEBUG [main] devpinoyLogger 40 - Current Thread ID On my project : 1
+02-06-2018 15:40:28 TestBase.java DEBUG [main] devpinoyLogger 41 - Envirnoment Initilization ......
+02-06-2018 15:40:28 TestBase.java DEBUG [main] devpinoyLogger 42 - Initializing Web Driver For Browser : ff
+02-06-2018 15:40:28 TestBase.java DEBUG [main] devpinoyLogger 45 - Inside FF Driver
+02-06-2018 15:40:35 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:40:35 TestBase.java DEBUG [main] devpinoyLogger 69 - Registering the Event Firing Web Driver with the Listener 
+02-06-2018 15:40:35 TestBase.java DEBUG [main] devpinoyLogger 75 - Envirnoment Initilization Finished ......
+02-06-2018 15:40:35 TestBase.java DEBUG [main] devpinoyLogger 77 - Launching Web URL
+02-06-2018 15:40:35 WebDriverEventListener.java DEBUG [main] devpinoyLogger 83 - Navigating To URL : https://www.freecrm.com/index.html
+02-06-2018 15:40:53 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:40:53 LoginPage.java DEBUG [main] devpinoyLogger 48 - Inside Login Method
+02-06-2018 15:40:59 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (075acebd-57a4-4037-8b18-40bce0d39859)] -> xpath: //input[@type='submit']]
+02-06-2018 15:40:59 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:41:15 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (075acebd-57a4-4037-8b18-40bce0d39859)] -> xpath: //a[contains(text(),'Contacts')]]
+02-06-2018 15:41:16 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:41:19 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (075acebd-57a4-4037-8b18-40bce0d39859)] -> xpath: //a[contains(text(),'New Contact')]]
+02-06-2018 15:41:23 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[[[FirefoxDriver: firefox on WINDOWS (075acebd-57a4-4037-8b18-40bce0d39859)] -> xpath: //select[@name='title']]] -> xpath: .//option[normalize-space(.) = "Mr."]]
+02-06-2018 15:41:24 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (075acebd-57a4-4037-8b18-40bce0d39859)] -> xpath: //form[@id='contactForm']/table/tbody/tr[1]/td/input[2]]
+02-06-2018 15:41:31 TestBase.java DEBUG [main] devpinoyLogger 82 - Getting Web Driver Instance
+02-06-2018 15:41:31 TestBase.java DEBUG [main] devpinoyLogger 40 - Current Thread ID On my project : 1
+02-06-2018 15:41:31 TestBase.java DEBUG [main] devpinoyLogger 41 - Envirnoment Initilization ......
+02-06-2018 15:41:31 TestBase.java DEBUG [main] devpinoyLogger 42 - Initializing Web Driver For Browser : ff
+02-06-2018 15:41:31 TestBase.java DEBUG [main] devpinoyLogger 45 - Inside FF Driver
+02-06-2018 15:41:37 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:41:37 TestBase.java DEBUG [main] devpinoyLogger 69 - Registering the Event Firing Web Driver with the Listener 
+02-06-2018 15:41:37 TestBase.java DEBUG [main] devpinoyLogger 75 - Envirnoment Initilization Finished ......
+02-06-2018 15:41:37 TestBase.java DEBUG [main] devpinoyLogger 77 - Launching Web URL
+02-06-2018 15:41:37 WebDriverEventListener.java DEBUG [main] devpinoyLogger 83 - Navigating To URL : https://www.freecrm.com/index.html
+02-06-2018 15:41:53 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:41:53 LoginPage.java DEBUG [main] devpinoyLogger 48 - Inside Login Method
+02-06-2018 15:42:00 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (4310d886-4a03-4241-89de-b0e7f67ea98f)] -> xpath: //input[@type='submit']]
+02-06-2018 15:42:00 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:42:15 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (4310d886-4a03-4241-89de-b0e7f67ea98f)] -> xpath: //a[contains(text(),'Contacts')]]
+02-06-2018 15:42:15 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:42:17 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (4310d886-4a03-4241-89de-b0e7f67ea98f)] -> xpath: //a[contains(text(),'New Contact')]]
+02-06-2018 15:42:20 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[[[FirefoxDriver: firefox on WINDOWS (4310d886-4a03-4241-89de-b0e7f67ea98f)] -> xpath: //select[@name='title']]] -> xpath: .//option[normalize-space(.) = "Mr."]]
+02-06-2018 15:42:21 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (4310d886-4a03-4241-89de-b0e7f67ea98f)] -> xpath: //form[@id='contactForm']/table/tbody/tr[1]/td/input[2]]
+02-06-2018 15:42:23 TestBase.java DEBUG [main] devpinoyLogger 82 - Getting Web Driver Instance
+02-06-2018 15:42:23 TestBase.java DEBUG [main] devpinoyLogger 40 - Current Thread ID On my project : 1
+02-06-2018 15:42:23 TestBase.java DEBUG [main] devpinoyLogger 41 - Envirnoment Initilization ......
+02-06-2018 15:42:23 TestBase.java DEBUG [main] devpinoyLogger 42 - Initializing Web Driver For Browser : ff
+02-06-2018 15:42:23 TestBase.java DEBUG [main] devpinoyLogger 45 - Inside FF Driver
+02-06-2018 15:42:30 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:42:30 TestBase.java DEBUG [main] devpinoyLogger 69 - Registering the Event Firing Web Driver with the Listener 
+02-06-2018 15:42:30 TestBase.java DEBUG [main] devpinoyLogger 75 - Envirnoment Initilization Finished ......
+02-06-2018 15:42:30 TestBase.java DEBUG [main] devpinoyLogger 77 - Launching Web URL
+02-06-2018 15:42:30 WebDriverEventListener.java DEBUG [main] devpinoyLogger 83 - Navigating To URL : https://www.freecrm.com/index.html
+02-06-2018 15:42:41 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:42:41 LoginPage.java DEBUG [main] devpinoyLogger 48 - Inside Login Method
+02-06-2018 15:42:45 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (45bf9c84-12e2-4d8f-9d3a-9a4fe39a8335)] -> xpath: //input[@type='submit']]
+02-06-2018 15:42:45 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:42:56 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (45bf9c84-12e2-4d8f-9d3a-9a4fe39a8335)] -> xpath: //a[contains(text(),'Contacts')]]
+02-06-2018 15:42:56 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:42:59 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (45bf9c84-12e2-4d8f-9d3a-9a4fe39a8335)] -> xpath: //a[contains(text(),'New Contact')]]
+02-06-2018 15:43:04 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[[[FirefoxDriver: firefox on WINDOWS (45bf9c84-12e2-4d8f-9d3a-9a4fe39a8335)] -> xpath: //select[@name='title']]] -> xpath: .//option[normalize-space(.) = "Mr."]]
+02-06-2018 15:43:07 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (45bf9c84-12e2-4d8f-9d3a-9a4fe39a8335)] -> xpath: //form[@id='contactForm']/table/tbody/tr[1]/td/input[2]]
+02-06-2018 15:43:11 TestBase.java DEBUG [main] devpinoyLogger 82 - Getting Web Driver Instance
+02-06-2018 15:43:11 TestBase.java DEBUG [main] devpinoyLogger 40 - Current Thread ID On my project : 1
+02-06-2018 15:43:11 TestBase.java DEBUG [main] devpinoyLogger 41 - Envirnoment Initilization ......
+02-06-2018 15:43:11 TestBase.java DEBUG [main] devpinoyLogger 42 - Initializing Web Driver For Browser : ff
+02-06-2018 15:43:11 TestBase.java DEBUG [main] devpinoyLogger 45 - Inside FF Driver
+02-06-2018 15:43:18 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:43:18 TestBase.java DEBUG [main] devpinoyLogger 69 - Registering the Event Firing Web Driver with the Listener 
+02-06-2018 15:43:18 TestBase.java DEBUG [main] devpinoyLogger 75 - Envirnoment Initilization Finished ......
+02-06-2018 15:43:18 TestBase.java DEBUG [main] devpinoyLogger 77 - Launching Web URL
+02-06-2018 15:43:18 WebDriverEventListener.java DEBUG [main] devpinoyLogger 83 - Navigating To URL : https://www.freecrm.com/index.html
+02-06-2018 15:43:29 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:43:29 LoginPage.java DEBUG [main] devpinoyLogger 48 - Inside Login Method
+02-06-2018 15:43:33 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (033dda96-ba86-44ed-befc-4871ef26ec31)] -> xpath: //input[@type='submit']]
+02-06-2018 15:43:33 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:43:44 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (033dda96-ba86-44ed-befc-4871ef26ec31)] -> xpath: //a[contains(text(),'Contacts')]]
+02-06-2018 15:43:45 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:43:47 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (033dda96-ba86-44ed-befc-4871ef26ec31)] -> xpath: //a[contains(text(),'New Contact')]]
+02-06-2018 15:43:51 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[[[FirefoxDriver: firefox on WINDOWS (033dda96-ba86-44ed-befc-4871ef26ec31)] -> xpath: //select[@name='title']]] -> xpath: .//option[normalize-space(.) = "Mr."]]
+02-06-2018 15:43:54 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (033dda96-ba86-44ed-befc-4871ef26ec31)] -> xpath: //form[@id='contactForm']/table/tbody/tr[1]/td/input[2]]
+02-06-2018 15:43:58 TestBase.java DEBUG [main] devpinoyLogger 82 - Getting Web Driver Instance
+02-06-2018 15:43:58 TestBase.java DEBUG [main] devpinoyLogger 40 - Current Thread ID On my project : 1
+02-06-2018 15:43:58 TestBase.java DEBUG [main] devpinoyLogger 41 - Envirnoment Initilization ......
+02-06-2018 15:43:58 TestBase.java DEBUG [main] devpinoyLogger 42 - Initializing Web Driver For Browser : ff
+02-06-2018 15:43:58 TestBase.java DEBUG [main] devpinoyLogger 45 - Inside FF Driver
+02-06-2018 15:44:04 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:44:04 TestBase.java DEBUG [main] devpinoyLogger 69 - Registering the Event Firing Web Driver with the Listener 
+02-06-2018 15:44:04 TestBase.java DEBUG [main] devpinoyLogger 75 - Envirnoment Initilization Finished ......
+02-06-2018 15:44:04 TestBase.java DEBUG [main] devpinoyLogger 77 - Launching Web URL
+02-06-2018 15:44:04 WebDriverEventListener.java DEBUG [main] devpinoyLogger 83 - Navigating To URL : https://www.freecrm.com/index.html
+02-06-2018 15:44:16 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:44:16 LoginPage.java DEBUG [main] devpinoyLogger 48 - Inside Login Method
+02-06-2018 15:44:20 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (87ac151b-f080-40c3-8eb2-d3d05779a79a)] -> xpath: //input[@type='submit']]
+02-06-2018 15:44:20 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:44:30 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (87ac151b-f080-40c3-8eb2-d3d05779a79a)] -> xpath: //a[contains(text(),'Contacts')]]
+02-06-2018 15:44:30 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:44:34 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (87ac151b-f080-40c3-8eb2-d3d05779a79a)] -> xpath: //a[contains(text(),'New Contact')]]
+02-06-2018 15:44:37 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[[[FirefoxDriver: firefox on WINDOWS (87ac151b-f080-40c3-8eb2-d3d05779a79a)] -> xpath: //select[@name='title']]] -> xpath: .//option[normalize-space(.) = "Mr."]]
+02-06-2018 15:44:40 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (87ac151b-f080-40c3-8eb2-d3d05779a79a)] -> xpath: //form[@id='contactForm']/table/tbody/tr[1]/td/input[2]]
+02-06-2018 15:44:44 TestBase.java DEBUG [main] devpinoyLogger 82 - Getting Web Driver Instance
+02-06-2018 15:44:44 TestBase.java DEBUG [main] devpinoyLogger 40 - Current Thread ID On my project : 1
+02-06-2018 15:44:44 TestBase.java DEBUG [main] devpinoyLogger 41 - Envirnoment Initilization ......
+02-06-2018 15:44:44 TestBase.java DEBUG [main] devpinoyLogger 42 - Initializing Web Driver For Browser : ff
+02-06-2018 15:44:44 TestBase.java DEBUG [main] devpinoyLogger 45 - Inside FF Driver
+02-06-2018 15:44:52 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:44:52 TestBase.java DEBUG [main] devpinoyLogger 69 - Registering the Event Firing Web Driver with the Listener 
+02-06-2018 15:44:52 TestBase.java DEBUG [main] devpinoyLogger 75 - Envirnoment Initilization Finished ......
+02-06-2018 15:44:52 TestBase.java DEBUG [main] devpinoyLogger 77 - Launching Web URL
+02-06-2018 15:44:52 WebDriverEventListener.java DEBUG [main] devpinoyLogger 83 - Navigating To URL : https://www.freecrm.com/index.html
+02-06-2018 15:45:03 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:45:03 LoginPage.java DEBUG [main] devpinoyLogger 48 - Inside Login Method
+02-06-2018 15:45:08 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (1ea5e322-7af8-41eb-8605-3046a014861a)] -> xpath: //input[@type='submit']]
+02-06-2018 15:45:08 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:45:20 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (1ea5e322-7af8-41eb-8605-3046a014861a)] -> xpath: //a[contains(text(),'Contacts')]]
+02-06-2018 15:45:21 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:45:24 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (1ea5e322-7af8-41eb-8605-3046a014861a)] -> xpath: //a[contains(text(),'New Contact')]]
+02-06-2018 15:45:27 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[[[FirefoxDriver: firefox on WINDOWS (1ea5e322-7af8-41eb-8605-3046a014861a)] -> xpath: //select[@name='title']]] -> xpath: .//option[normalize-space(.) = "Mr."]]
+02-06-2018 15:45:29 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (1ea5e322-7af8-41eb-8605-3046a014861a)] -> xpath: //form[@id='contactForm']/table/tbody/tr[1]/td/input[2]]
+02-06-2018 15:45:32 TestBase.java DEBUG [main] devpinoyLogger 82 - Getting Web Driver Instance
+02-06-2018 15:45:32 TestBase.java DEBUG [main] devpinoyLogger 40 - Current Thread ID On my project : 1
+02-06-2018 15:45:32 TestBase.java DEBUG [main] devpinoyLogger 41 - Envirnoment Initilization ......
+02-06-2018 15:45:32 TestBase.java DEBUG [main] devpinoyLogger 42 - Initializing Web Driver For Browser : ff
+02-06-2018 15:45:32 TestBase.java DEBUG [main] devpinoyLogger 45 - Inside FF Driver
+02-06-2018 15:45:42 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:45:42 TestBase.java DEBUG [main] devpinoyLogger 69 - Registering the Event Firing Web Driver with the Listener 
+02-06-2018 15:45:42 TestBase.java DEBUG [main] devpinoyLogger 75 - Envirnoment Initilization Finished ......
+02-06-2018 15:45:42 TestBase.java DEBUG [main] devpinoyLogger 77 - Launching Web URL
+02-06-2018 15:45:42 WebDriverEventListener.java DEBUG [main] devpinoyLogger 83 - Navigating To URL : https://www.freecrm.com/index.html
+02-06-2018 15:45:54 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:45:54 LoginPage.java DEBUG [main] devpinoyLogger 48 - Inside Login Method
+02-06-2018 15:45:58 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (24b757f8-9ccc-45de-8b29-b11dbf680151)] -> xpath: //input[@type='submit']]
+02-06-2018 15:45:58 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:46:11 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (24b757f8-9ccc-45de-8b29-b11dbf680151)] -> xpath: //a[contains(text(),'Contacts')]]
+02-06-2018 15:46:11 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:46:14 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (24b757f8-9ccc-45de-8b29-b11dbf680151)] -> xpath: //a[contains(text(),'New Contact')]]
+02-06-2018 15:46:16 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[[[FirefoxDriver: firefox on WINDOWS (24b757f8-9ccc-45de-8b29-b11dbf680151)] -> xpath: //select[@name='title']]] -> xpath: .//option[normalize-space(.) = "Mr."]]
+02-06-2018 15:46:20 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (24b757f8-9ccc-45de-8b29-b11dbf680151)] -> xpath: //form[@id='contactForm']/table/tbody/tr[1]/td/input[2]]
+02-06-2018 15:47:21 TestBase.java DEBUG [main] devpinoyLogger 82 - Getting Web Driver Instance
+02-06-2018 15:47:21 TestBase.java DEBUG [main] devpinoyLogger 40 - Current Thread ID On my project : 1
+02-06-2018 15:47:21 TestBase.java DEBUG [main] devpinoyLogger 41 - Envirnoment Initilization ......
+02-06-2018 15:47:21 TestBase.java DEBUG [main] devpinoyLogger 42 - Initializing Web Driver For Browser : ff
+02-06-2018 15:47:21 TestBase.java DEBUG [main] devpinoyLogger 45 - Inside FF Driver
+02-06-2018 15:47:29 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:47:29 TestBase.java DEBUG [main] devpinoyLogger 69 - Registering the Event Firing Web Driver with the Listener 
+02-06-2018 15:47:29 TestBase.java DEBUG [main] devpinoyLogger 75 - Envirnoment Initilization Finished ......
+02-06-2018 15:47:29 TestBase.java DEBUG [main] devpinoyLogger 77 - Launching Web URL
+02-06-2018 15:47:29 WebDriverEventListener.java DEBUG [main] devpinoyLogger 83 - Navigating To URL : https://www.freecrm.com/index.html
+02-06-2018 15:47:41 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:47:41 LoginPage.java DEBUG [main] devpinoyLogger 48 - Inside Login Method
+02-06-2018 15:47:46 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (d281ce98-75c3-499e-8a17-52651339ca80)] -> xpath: //input[@type='submit']]
+02-06-2018 15:47:46 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:47:59 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (d281ce98-75c3-499e-8a17-52651339ca80)] -> xpath: //a[contains(text(),'Contacts')]]
+02-06-2018 15:47:59 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:48:02 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (d281ce98-75c3-499e-8a17-52651339ca80)] -> xpath: //a[contains(text(),'New Contact')]]
+02-06-2018 15:48:05 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[[[FirefoxDriver: firefox on WINDOWS (d281ce98-75c3-499e-8a17-52651339ca80)] -> xpath: //select[@name='title']]] -> xpath: .//option[normalize-space(.) = "Mr."]]
+02-06-2018 15:48:08 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (d281ce98-75c3-499e-8a17-52651339ca80)] -> xpath: //form[@id='contactForm']/table/tbody/tr[1]/td/input[2]]
+02-06-2018 15:48:13 TestBase.java DEBUG [main] devpinoyLogger 82 - Getting Web Driver Instance
+02-06-2018 15:48:13 TestBase.java DEBUG [main] devpinoyLogger 40 - Current Thread ID On my project : 1
+02-06-2018 15:48:13 TestBase.java DEBUG [main] devpinoyLogger 41 - Envirnoment Initilization ......
+02-06-2018 15:48:13 TestBase.java DEBUG [main] devpinoyLogger 42 - Initializing Web Driver For Browser : ff
+02-06-2018 15:48:13 TestBase.java DEBUG [main] devpinoyLogger 45 - Inside FF Driver
+02-06-2018 15:48:20 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:48:20 TestBase.java DEBUG [main] devpinoyLogger 69 - Registering the Event Firing Web Driver with the Listener 
+02-06-2018 15:48:20 TestBase.java DEBUG [main] devpinoyLogger 75 - Envirnoment Initilization Finished ......
+02-06-2018 15:48:20 TestBase.java DEBUG [main] devpinoyLogger 77 - Launching Web URL
+02-06-2018 15:48:20 WebDriverEventListener.java DEBUG [main] devpinoyLogger 83 - Navigating To URL : https://www.freecrm.com/index.html
+02-06-2018 15:48:32 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:48:32 LoginPage.java DEBUG [main] devpinoyLogger 48 - Inside Login Method
+02-06-2018 15:48:36 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (14fd78e9-7d25-42a9-ad72-5909af57316e)] -> xpath: //input[@type='submit']]
+02-06-2018 15:48:37 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:48:50 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (14fd78e9-7d25-42a9-ad72-5909af57316e)] -> xpath: //a[contains(text(),'Contacts')]]
+02-06-2018 15:48:50 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:48:53 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (14fd78e9-7d25-42a9-ad72-5909af57316e)] -> xpath: //a[contains(text(),'New Contact')]]
+02-06-2018 15:48:56 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[[[FirefoxDriver: firefox on WINDOWS (14fd78e9-7d25-42a9-ad72-5909af57316e)] -> xpath: //select[@name='title']]] -> xpath: .//option[normalize-space(.) = "Mr."]]
+02-06-2018 15:48:56 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (14fd78e9-7d25-42a9-ad72-5909af57316e)] -> xpath: //form[@id='contactForm']/table/tbody/tr[1]/td/input[2]]
+02-06-2018 15:48:59 TestBase.java DEBUG [main] devpinoyLogger 82 - Getting Web Driver Instance
+02-06-2018 15:48:59 TestBase.java DEBUG [main] devpinoyLogger 40 - Current Thread ID On my project : 1
+02-06-2018 15:48:59 TestBase.java DEBUG [main] devpinoyLogger 41 - Envirnoment Initilization ......
+02-06-2018 15:48:59 TestBase.java DEBUG [main] devpinoyLogger 42 - Initializing Web Driver For Browser : ff
+02-06-2018 15:48:59 TestBase.java DEBUG [main] devpinoyLogger 45 - Inside FF Driver
+02-06-2018 15:49:05 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:49:05 TestBase.java DEBUG [main] devpinoyLogger 69 - Registering the Event Firing Web Driver with the Listener 
+02-06-2018 15:49:05 TestBase.java DEBUG [main] devpinoyLogger 75 - Envirnoment Initilization Finished ......
+02-06-2018 15:49:05 TestBase.java DEBUG [main] devpinoyLogger 77 - Launching Web URL
+02-06-2018 15:49:05 WebDriverEventListener.java DEBUG [main] devpinoyLogger 83 - Navigating To URL : https://www.freecrm.com/index.html
+02-06-2018 15:49:23 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:49:23 LoginPage.java DEBUG [main] devpinoyLogger 48 - Inside Login Method
+02-06-2018 15:49:28 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (fc7e6adf-dae9-4ecf-a8d2-91dbae045305)] -> xpath: //input[@type='submit']]
+02-06-2018 15:49:29 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:49:48 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (fc7e6adf-dae9-4ecf-a8d2-91dbae045305)] -> xpath: //a[contains(text(),'Contacts')]]
+02-06-2018 15:49:49 TestBase.java DEBUG [main] devpinoyLogger 35 - Initializing Constructor Of The Base Class 
+02-06-2018 15:49:52 WebDriverEventListener.java DEBUG [main] devpinoyLogger 57 - Clicking on the Web Element : [[FirefoxDriver: firefox on WINDOWS (fc7e6adf-dae9-4ecf-a8d2-91dbae045305)] -> xpath: //a[contains(text(),'New Contact')]]

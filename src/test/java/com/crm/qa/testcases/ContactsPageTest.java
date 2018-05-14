@@ -4,6 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -29,7 +30,7 @@ public class ContactsPageTest extends TestBase {
 	
 		
 	@BeforeMethod
-	public void setup(String browser){
+	public void setup(@Optional("ff") String browser){
 		initialization(browser);
 		loginpageObj= new LoginPage();
 		homepageObj = loginpageObj.login(prop.getProperty("userName"), prop.getProperty("password"));

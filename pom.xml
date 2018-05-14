@@ -20,7 +20,7 @@
 				<version>2.12.4</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>src\main\java\com\crm\qa\config\testng-multibrowser.xml</suiteXmlFile>
+						<suiteXmlFile>src\main\java\com\crm\qa\config\testng-suite.xml</suiteXmlFile>
 					</suiteXmlFiles>
 
 				</configuration>

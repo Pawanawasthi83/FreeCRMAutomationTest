@@ -18,16 +18,16 @@ public class LoginPageTest extends TestBase {
 	
 		
 	public LoginPageTest() {
-		super();
+		
 	}
 	
-	@BeforeTest
-	@Parameters("browser")
 	
+	@Parameters("browser")
 	@BeforeMethod
 	public void setup(String browser ){
+		TestBase base = new TestBase();
 		log.debug("Before Method Starts ....");
-		initialization(browser);
+		base.initialization(browser);
 		loginPageObj = new LoginPage();
 	}
 	
@@ -36,7 +36,7 @@ public class LoginPageTest extends TestBase {
 		String pageTitle = loginPageObj.getLoginPageTitle();
 		Assert.assertEquals(pageTitle, prop.getProperty("loginpagetitle"));
 	}
-	@Test(priority=2)
+	/*@Test(priority=2)
 	public void testCRMLogoImage(){
 		boolean flag = loginPageObj.validateCrmLogo();
 		Assert.assertTrue(flag);
@@ -46,11 +46,16 @@ public class LoginPageTest extends TestBase {
 		homePageObj=loginPageObj.login(prop.getProperty("userName"), prop.getProperty("password"));
 		String title = homePageObj.getHomePageTitle();
 		Assert.assertEquals(title, prop.getProperty("homepagetitle"));
-	}
+	}*/
 	
 	@AfterMethod
 	public void teardown(){
-		driver.close();
+		log.debug("After Methods Starts ...");
+		driver.quit();
+		log.debug(Thread.currentThread().getId());
+		log.debug(Thread.currentThread().isInterrupted());
+		Thread.currentThread().interrupt();
+		log.debug(Thread.currentThread().isInterrupted());
 		getDriver().remove();
 		log.debug("After Methods ends ...");
 		
